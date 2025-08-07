@@ -1,0 +1,71 @@
+.newspaper-section {
+  background: #f8f5f0;
+  padding: 3rem 2rem;
+  font-family: 'Georgia', serif;
+  color: #333;
+  line-height: 1.8;
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.headline {
+  font-family: 'Times New Roman', serif;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.article {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2.5rem;
+  align-items: flex-start;
+}
+
+.article.reverse {
+  flex-direction: row-reverse;
+}
+
+.photo-block {
+  text-align: center;
+  flex: 1;
+}
+
+.photo-block img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #444;
+  margin-bottom: 0.5rem;
+}
+
+.photo-block h3 {
+  font-size: 1.2rem;
+  margin: 0.2rem 0;
+}
+
+.photo-block .title {
+  font-style: italic;
+  font-size: 0.95rem;
+  color: #777;
+}
+
+.article-text {
+  flex: 3;
+  font-size: 1.1rem;
+  text-align: justify;
+}
+
+.relationship {
+  background: #fff;
+  border-top: 1px dashed #aaa;
+  padding-top: 1rem;
+  font-size: 1.05rem;
+  text-align: justify;
+}

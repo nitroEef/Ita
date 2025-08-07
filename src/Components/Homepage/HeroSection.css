@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding:0;
+}
+.popo {
+  position: relative; /* Needed for absolute background child */
+  overflow: hidden;
+  width: 75%;
+  padding: 1rem 1rem;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container for both columns */
+.popo-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  width: 100%;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+
+/* Left Text Section */
+.popo-content {
+  flex: 1 1 500px;
+  color: #332500;
+}
+
+.popo-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #003333;
+  margin-bottom: 1rem;
+}
+
+.popo-content > p {
+  font-size: 1.3rem;
+  color: #007777;
+  margin-bottom: 1.5rem;
+}
+
+.hero-description p {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+/* Button Container */
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Button Styles */
+.hero-btn {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+/* Contact Us button - filled */
+.hero-btn.primary {
+  background-color: #00aaa0;
+  color: #fff;
+  border: none;
+}
+
+.hero-btn.primary:hover {
+  background-color: #007b77;
+}
+
+/* View Members button - outlined */
+.hero-btn.secondary {
+  background-color: transparent;
+  color: #00aaa0;
+  border: 2px solid #00aaa0;
+}
+
+.hero-btn.secondary:hover {
+  background-color: #00aaa0;
+  color: #fff;
+}
+
+/* Right Image */
+.popo-image-container {
+  flex: 1 1 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popo-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .popo-content-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .popo-content {
+    text-align: center;
+  }
+
+  .popo-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .popo-content > p {
+    font-size: 1.1rem;
+  }
+
+  .popo-image {
+    margin-top: 2rem;
+    max-width: 90%;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-btn {
+    width: 100%;
+    text-align: center;
+  }
+}

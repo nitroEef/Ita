@@ -1,0 +1,91 @@
+import React from "react";
+import { FaUsers, FaBriefcase, FaQuoteLeft, FaPhoneAlt } from "react-icons/fa";
+import "./HomePage.css";
+
+const HomePage = () => {
+  return (
+    <div className="homepage">
+      {/* Hero Section */}
+      <section className="hero">
+        <video autoPlay muted loop className="hero-video">
+          <source src="/tiling-video.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <div className="hero-overlay">
+          <h1>Building Better Spaces, One Tile at a Time</h1>
+          <p>Professional tilers united to serve your needs in style and durability.</p>
+          <button className="cta-btn">Meet Our Members</button>
+        </div>
+      </section>
+
+      {/* Why Choose Us */}
+      <section className="why-us">
+        <h2>Why Choose Our Association?</h2>
+        <ul>
+          <li>✅ Certified Professionals</li>
+          <li>✅ 10+ Years of Experience</li>
+          <li>✅ Affordable and Reliable Services</li>
+        </ul>
+      </section>
+
+      {/* Services */}
+      <section className="services">
+        <h2><FaBriefcase /> Our Services</h2>
+        <div className="service-list">
+          <div className="service-item">
+            <img src="/floor-tiling.jpg" alt="Floor Tiling" />
+            <h3>Floor Tiling</h3>
+          </div>
+          <div className="service-item">
+            <img src="/wall-tiling.jpg" alt="Wall Tiling" />
+            <h3>Wall Tiling</h3>
+          </div>
+          <div className="service-item">
+            <img src="/bathroom-tiling.jpg" alt="Bathroom Tiling" />
+            <h3>Bathroom Tiling</h3>
+          </div>
+        </div>
+      </section>
+
+      {/* Members Preview */}
+      <section className="members-preview">
+        <h2><FaUsers /> Meet Our Members</h2>
+        <div className="members-grid">
+          <div className="member-card">
+            <img src="/member1.jpg" alt="Tiler Musa" />
+            <h4>Tiler Musa</h4>
+            <p>Floor & Wall Specialist - Osogbo</p>
+          </div>
+          <div className="member-card">
+            <img src="/member2.jpg" alt="Tiler Ayo" />
+            <h4>Tiler Ayo</h4>
+            <p>Bathroom & Kitchen Expert - Ilobu</p>
+          </div>
+        </div>
+        <button className="view-all">View All Members</button>
+      </section>
+
+      {/* Testimonials */}
+      <section className="testimonials">
+        <h2><FaQuoteLeft /> What Our Clients Say</h2>
+        <div className="testimonial-item">
+          <p>“The association connected me with a very professional tiler. The job was excellent and timely!”</p>
+          <span>- Mrs. Adebayo, Osogbo</span>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="cta-contact">
+        <h2><FaPhoneAlt /> Need a Tiler?</h2>
+        <p>Contact us today and we'll match you with a verified professional in your area.</p>
+        <button className="cta-btn">Contact Us</button>
+      </section>
+    </div>
+  );
+};
+
+export default HomePage;
+
+na ur own today and other
+
+https://sdmntpritalynorth.oaiusercontent.com/files/00000000-50bc-6246-a257-2acae4b3c6a9/raw?se=2025-07-31T05%3A47%3A37Z&sp=r&sv=2024-08-04&sr=b&scid=c987834f-291f-5e37-b8f8-2edb5c2b9814&skoid=0a4a0f0c-99ac-4752-9d87-cfac036fa93f&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-30T22%3A37%3A15Z&ske=2025-07-31T22%3A37%3A15Z&sks=b&skv=2024-08-04&sig=cH9yR0PyzX4hwJF%2BeLsunDx817a2KIWKL1s8Z3dA26Y%3D

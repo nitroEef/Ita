@@ -1,0 +1,88 @@
+.menu-bar-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent;
+  border-radius: 16px 16px 0 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 11px 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.menu-icon-button {
+  background: none;
+  border: none;
+  color:red;
+  font-size: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.menu-icon-button:hover {
+  transform: scale(1.1);
+}
+
+.menu-icon-button span {
+  margin-top: 4px;
+}
+
+
+/* Base styles are already responsive with width: 90% */
+
+/* Small phones: reduce size and spacing */
+@media (max-width: 480px) {
+  .menu-bar-container {
+    padding: 8px 0;
+  }
+
+  .menu-icon-button {
+    font-size: 10px;
+  }
+
+  .menu-icon-button svg {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Tablets and small landscape phones */
+@media (min-width: 481px) and (max-width: 768px) {
+  .menu-bar-container {
+    width: 95%;
+    padding: 10px 0;
+  }
+
+  .menu-icon-button {
+    font-size: 11px;
+  }
+
+  .menu-icon-button svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+/* Desktop: optionally increase padding or icon size */
+@media (min-width: 769px) {
+  .menu-bar-container {
+    max-width: 500px;
+  }
+
+  .menu-icon-button {
+    font-size: 13px;
+  }
+
+  .menu-icon-button svg {
+    width: 22px;
+    height: 22px;
+  }
+}
