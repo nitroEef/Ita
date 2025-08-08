@@ -1,0 +1,166 @@
+@media (min-width:  901px) and (max-width: 1300px) {
+  .contact-wrapper {
+    padding: 4rem 5rem;
+  }
+
+  .contact-info {
+    padding: 3rem;
+  }
+
+  .contact-form {
+    max-width: 400px;
+  }
+
+
+  .contact-info h2 {
+    font-size: 2.3rem;
+  }
+}
+
+
+
+
+
+
+
+@media (min-width: 471px) and (max-width: 900px) {
+  .contact-wrapper {
+    display:flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: auto;
+  }
+
+  .contact-form {
+  width: 344px;
+}
+
+  .contact-info,
+  .contact-form {
+    padding: 2rem;
+    margin: 0;
+  }
+
+  .contact-info h2 {
+    font-size: 1.8rem;
+  }
+
+  .contact-form {
+    max-width: 100%;
+  }
+
+  .justci{
+    margin-left: 2rem;
+    
+  }
+
+    .contact-info::before {
+    top: 2%;
+    left: 5%;
+  }
+
+  .contact-info::after {
+    bottom: 1%;
+    
+    left: 7%;
+  } 
+}
+
+
+
+@media (min-width: 351px) and (max-width: 470px) {
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 1rem 1.5rem;
+    height: auto;
+  }
+
+  .justci{
+    margin-left: 2rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 1.5rem;
+  }
+
+  .justci{
+    margin-left: 1rem;
+  }
+  .contact-info h2 {
+    font-size: 1.6rem;
+  }
+
+  .contact-form {
+  width: 275px;
+    
+  }
+
+    .contact-info::before {
+    top: 2%;
+    left: 5%;
+  }
+
+  .contact-info::after {
+    bottom: 1%;
+    
+    left: 7%;
+  } 
+  .contact-form button {
+  padding: 0.7rem 1.4rem;
+
+}
+
+}
+
+
+@media (min-width: 220px) and (max-width: 350px) {
+  .contact-wrapper {
+    flex-direction: column;
+    padding: 1rem 1rem;
+    height: auto;
+    margin-bottom: 4rem;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 1rem;
+    margin: 0;
+  }
+
+  .contact-info h2 {
+    font-size: 1.4rem;
+  }
+
+  .contact-form {
+      
+  width: 214px;
+
+  }
+
+  .justci{
+    margin-left: 2rem;
+  }
+
+  .contact-info::before {
+    top: 2%;
+    left: 5%;
+  }
+
+  .contact-info::after {
+    bottom: 1%;
+    
+    left: 7%;
+  } 
+
+
+  
+.contact-form button {
+  padding: 0.6rem 1.2rem;
+
+}
+
+}
+
+
+

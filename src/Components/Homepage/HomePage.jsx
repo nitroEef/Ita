@@ -12,6 +12,7 @@ import HeroSection from "./HeroSection";
 import Contact from "../Contact/Contact";
 import History from "./History";
 import PatronMatron from "../Patron/PatronMatron";
+import Faq from "../FAQ/Faq"
 
 function Home() {
   return (
@@ -44,19 +45,12 @@ function Home() {
 <ExecutivePreview />
     
     <PatronMatron />
-    
-
-      {/* Call to Action */}
-      {/* <section className="cta-contact">
-        <h2><FaPhoneAlt /> Need a Tiler?</h2>
-        <p>Contact us today and we'll match you with a verified professional in your area.</p>
-        <button className="cta-btn">Contact Us</button>
-      </section> */}
+  
 
       <Contact />
 
    
-
+<Faq />
 
 
 

@@ -15,14 +15,14 @@
   gap: 2rem;
 }
 
-/* ============= Dark Overlay ============= */
+/* /* ============= Dark Overlay =============  this is used to overlay the background picture  */
 .contact-wrapper::before {
   content: "";
   position: absolute;
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(219, 234, 5, 0.186);
   z-index: 1;
 }
 

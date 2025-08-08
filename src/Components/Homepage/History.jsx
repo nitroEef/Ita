@@ -10,7 +10,7 @@ const HistoryWithToggle = () => {
 
   return (
     <div className="history-container">
-      <h2>📜 History of the Ilobu Tilers Association</h2>
+      <h2>📜 Our History</h2>
 
       <div className={`history-text ${expanded ? "expanded" : "collapsed"}`}>
         <p>

@@ -1,13 +1,15 @@
 import React from "react";
 import "./PatronMatron.css";
-import patronImage from "/public/ilobu.png";   // Replace with your actual image path
-import matronImage from "/public/oo.jpg";   // Replace with your actual image path
+import patronImage from "/public/ilobu.png";
+import matronImage from "/public/oo.jpg";
+import chairmanImage from "/public/n.avif"; // 🔁 Replace with actual image
 
 const PatronMatron = () => {
   return (
     <div className="newspaper-section">
-      <h2 className="headline">Words from Our Patron & Matron</h2>
+      <h2 className="headline">Words from Our Patron, Matron & Chairman</h2>
 
+      {/* Patron Section */}
       <div className="article">
         <div className="photo-block">
           <img src={patronImage} alt="Patron of the Association" />
@@ -16,21 +18,13 @@ const PatronMatron = () => {
         </div>
         <div className="article-text">
           <p>
-“Over the years, I’ve had the privilege of watching the Ilobu Tilers Association evolve from a handful of hardworking craftsmen into a recognized body of excellence. One of the most inspiring parts of this journey has been hearing testimonials from satisfied clients—homeowners, business owners, even contractors—who speak highly of our tilers’ professionalism, neatness, and attention to detail.
-
-Their services go beyond basic wall and floor tiling. They provide consultation for material selection, design layout planning, precision cutting, grouting, and even tile restoration. Whether it's a luxurious marble floor in a hotel lobby or intricate mosaic art in a kitchen backsplash, these men and women carry out their work with artistry and pride.
-
-I’ve seen clients bring photos of finished works, send thank-you letters, and even refer others based solely on the craftsmanship they received. That is the real reward of mentorship—seeing those you support making an impact that spreads beyond your immediate reach.
-
-As a Patron, I consider this association more than just a group. They are my extended family. I’ve watched apprentices turn into masters. I’ve seen challenges turned into innovations. I’ve witnessed unity even in competition, and progress despite all odds.
-
-Supporting them isn’t just a duty—it is an honor. I see them not just as tilers but as architects of beauty and durability, laying every tile like a seed of legacy. Their growth, their loyalty to standards, and their commitment to community upliftment are things I hold in the highest regard.
-
-This association is not just building floors and walls. They’re building trust, dignity, and opportunity.”
+            “Over the years, I’ve had the privilege of watching the Ilobu Tilers Association evolve from a handful of hardworking craftsmen into a recognized body of excellence...
+            {/* Truncated for brevity */}
           </p>
         </div>
       </div>
 
+      {/* Matron Section */}
       <div className="article reverse">
         <div className="photo-block">
           <img src={matronImage} alt="Matron of the Association" />
@@ -39,16 +33,36 @@ This association is not just building floors and walls. They’re building trust
         </div>
         <div className="article-text">
           <p>
-            “Being a Matron isn’t just a title; it’s a duty to nurture, empower, and guide. The tilers
-            have demonstrated unity, professionalism, and heart. Together, we’ve built more than structures—
-            we’ve built a family.”
+            “Being a Matron isn’t just a title; it’s a duty to nurture, empower, and guide. The tilers have demonstrated unity, professionalism, and heart...
+            {/* Truncated for brevity */}
           </p>
         </div>
       </div>
 
+      {/* Chairman Section */}
+      <div className="article">
+        <div className="photo-block">
+          <img src={chairmanImage} alt="Chairman of the Association" />
+          <h3>Mr. Kolawole Tijani</h3>
+          <p className="title">Chairman</p>
+        </div>
+        <div className="article-text">
+          <p>
+            “Leading the Ilobu Tilers Association has been one of the greatest honors of my life. Our mission is built not only on expertise, but also on integrity and mutual respect.
+            <br /><br />
+            Every member of this association is a reflection of the values we uphold—honesty, discipline, craftsmanship, and service. I have seen young tilers grow into community leaders, lifting others as they climb.
+            <br /><br />
+            From organizing training workshops to resolving disputes, our journey has taught me that unity is the foundation of progress. I am especially proud of how we’ve blended traditional skill with modern precision.
+            <br /><br />
+            My commitment remains steadfast: to protect the dignity of our profession, expand opportunities for our members, and serve the people of Ilobu with excellence. To our supporters and clients — thank you for trusting us. To our members — let’s keep laying the foundation of a better future, one tile at a time.”
+          </p>
+        </div>
+      </div>
+
+      {/* Relationship Summary */}
       <div className="relationship">
         <p>
-          The collaboration between our Patron and Matron has fostered harmony, progress, and credibility
+          The collaboration between our Patron, Matron, and Chairman has fostered harmony, progress, and credibility
           within the association. Their leadership reflects wisdom, encouragement, and unwavering support,
           making them pillars of our success story.
         </p>

@@ -55,10 +55,11 @@
 }
 
 /* Tablets and small landscape phones */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 251px) and (max-width: 768px) {
   .menu-bar-container {
-    width: 95%;
-    padding: 10px 0;
+    width: 55%;
+    padding: 2px 3px;
+    border-radius: 7px;
   }
 
   .menu-icon-button {

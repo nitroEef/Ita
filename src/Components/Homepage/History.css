@@ -1,52 +1,93 @@
+/* Base container with dark, full-width background */
 .history-container {
-  max-width: 800px;
-  margin: 2rem auto;
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  font-family: "Segoe UI", sans-serif;
+  width: 100%;
+  padding: 80px 20px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  color: #2d2d2e;
 }
 
+/* Heading */
 .history-container h2 {
-  margin-bottom: 1rem;
-  color: #00ff44;
+  font-size: 2.8rem;
+  font-weight: 800;
+  background: #000;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 40px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
+/* Main content card */
 .history-text {
+  max-width: 1000px;
+  width: 100%;
+  backdrop-filter: blur(66px);
+  border-radius: 20px;
+  padding: 40px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  font-size: 1.1rem;
+  line-height: 1.8;
   overflow: hidden;
-  transition: max-height 0.6s ease;
+  transition: max-height 0.6s ease, padding 0.3s ease;
   position: relative;
 }
 
+/* Collapse with gradient fade */
 .history-text.collapsed {
-  max-height: 8.5em; /* Show about 5-6 lines of text */
+  max-height: 300px;
   mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
 }
 
+/* Expand fully */
 .history-text.expanded {
-  max-height: 1000px;
+  max-height: 3000px;
   mask-image: none;
+  -webkit-mask-image: none;
 }
 
-.history-text p {
-  line-height: 1.7;
-  margin-bottom: 1rem;
-  color: #333;
-}
-
+/* Button - neon effect */
 .toggle-btn {
-  margin-top: 1rem;
-  padding: 0.6rem 1rem;
-  background-color: #00ff44;
-  color: #000;
+  margin-top: 30px;
+  padding: 14px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #0f172a;
+  background: linear-gradient(to right, #38bdf8, #22d3ee);
   border: none;
-  border-radius: 5px;
-  font-weight: bold;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
   cursor: pointer;
-  transition: background 0.3s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .toggle-btn:hover {
-  background-color: #00cc33;
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.5);
+}
+
+/* Responsive tweaks */
+@media screen and (max-width: 768px) {
+  .history-container {
+    padding: 60px 15px;
+  }
+
+  .history-text {
+    padding: 25px;
+    font-size: 1rem;
+  }
+
+  .toggle-btn {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .history-container h2 {
+    font-size: 2rem;
+  }
 }

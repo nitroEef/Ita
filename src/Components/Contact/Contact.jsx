@@ -1,11 +1,13 @@
 import React from "react";
 import "./Contact.css";
+import "./contactmedia.css";
 
 const ContactPage = () => {
   return (
     <div className="contact-wrapper">
       {/* Left Info Panel */}
       <div className="contact-info">
+        <div className="justci">
         <h2>
           Contact <span className="highlight">Us</span>
         </h2>
@@ -25,7 +27,9 @@ const ContactPage = () => {
         <div className="social-icons">
    
           <p>Up tilers : Good work to our clients</p>
+          </div>
         </div>
+
       </div>
 
 

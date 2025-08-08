@@ -1,30 +1,42 @@
 .newspaper-section {
-  background: #f8f5f0;
-  padding: 3rem 2rem;
-  font-family: 'Georgia', serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
-  line-height: 1.8;
-  max-width: 1000px;
-  margin: auto;
-  border: 1px solid #ccc;
-  box-shadow: 0 0 20px rgba(0,0,0,0.05);
 }
 
 .headline {
-  font-family: 'Times New Roman', serif;
   font-size: 2.5rem;
   text-align: center;
-  margin-bottom: 2rem;
-  border-bottom: 2px solid #000;
-  padding-bottom: 0.5rem;
-  letter-spacing: 1px;
+  margin-bottom: 3rem;
+  color: #054d29;
+  position: relative;
+}
+
+.headline::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  display: block;
+  margin: 0.5rem auto 0;
+  border-radius: 2px;
 }
 
 .article {
   display: flex;
-  gap: 2rem;
-  margin-bottom: 2.5rem;
   align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 4rem;
+  padding: 2rem;
+  background: transparent;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  transition: transform 0.3s ease;
+}
+
+.article:hover {
+  transform: translateY(-5px);
 }
 
 .article.reverse {
@@ -32,40 +44,81 @@
 }
 
 .photo-block {
+  flex: 0 0 220px;
   text-align: center;
-  flex: 1;
 }
 
 .photo-block img {
-  width: 180px;
-  height: 180px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 3px solid #444;
-  margin-bottom: 0.5rem;
+  max-width: 100%;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+
+
+.photo-block img:hover {
+  transform: scale(1.05);
 }
 
 .photo-block h3 {
+  margin-top: 1rem;
   font-size: 1.2rem;
-  margin: 0.2rem 0;
+  color: #198754;
 }
 
-.photo-block .title {
-  font-style: italic;
+.title {
+  font-weight: bold;
   font-size: 0.95rem;
-  color: #777;
+  color: #666;
+  margin-top: 0.25rem;
 }
 
 .article-text {
-  flex: 3;
-  font-size: 1.1rem;
-  text-align: justify;
+  flex: 1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+  padding-top: 0.5rem;
 }
 
 .relationship {
-  background: #fff;
-  border-top: 1px dashed #aaa;
-  padding-top: 1rem;
-  font-size: 1.05rem;
-  text-align: justify;
+  margin-top: 3rem;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  background: #e9f7f0;
+  padding: 2rem;
+  border-left: 6px solid #198754;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .article {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .article.reverse {
+    flex-direction: column;
+  }
+
+  .article-text {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .headline {
+    font-size: 2rem;
+  }
+
+  .photo-block img {
+    max-width: 150px;
+  }
+
+  .article-text {
+    font-size: 0.98rem;
+  }
 }
