@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FaUsers } from "react-icons/fa";
 import "./ExecutivePreview.css";
 
@@ -42,7 +44,7 @@ const ExecutivePreview = () => {
           </div>
         ))}
       </div>
-      <button className="view-all">View All Executives</button>
+    <Link to="./exco">  <button className="view-all">View All Executives</button> </Link>
     </section>
   );
 };

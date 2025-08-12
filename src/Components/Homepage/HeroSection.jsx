@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWhatsapp, FaEnvelope } from "react-icons/fa";
+import { FaWhatsapp, FaEnvelope , FaPhone} from "react-icons/fa";
 import "./HeroSection.css";
 
 const HeroSection = () => {
@@ -9,7 +9,7 @@ const HeroSection = () => {
         
         {/* Left - Text */}
         <div className="popo-content">
-          <h1>Welcome to Ilobu Tilers Association</h1>
+          <h1>Osun State Tilers Association <span>[ILOBU ZONE] </span></h1>
           <p>UP TILERS : GOOD WORKS TO OUR CLIENTS !!!</p>
 
           <div className="hero-description">
@@ -18,16 +18,16 @@ const HeroSection = () => {
               meet all the bonafide members here and our executives. Know that whoever
               you don't find here is not part of us.
             </p>
-            <p>
-              Our association aims to nurture talent, uphold industry standards, and
-              bring you top-tier tiling solutions that stand the test of time.
-            </p>
+          
           </div>
 
           {/* Buttons */}
           <div className="hero-buttons">
             <a href="#contact" className="icon-btn email">
               <FaEnvelope /> 
+            </a>
+             <a href="#contact" className="icon-btn phone">
+              <FaPhone /> 
             </a>
             <a
               href="https://wa.me/2348012345678"
@@ -42,7 +42,7 @@ const HeroSection = () => {
 
         {/* Right - Image */}
         <div className="popo-image-container">
-          <img src="/RR.png" alt="Tiler at work" className="popo-image" />
+          <img src="/ilotiler.png" alt="Tiler at work" className="popo-image" />
         </div>
       </div>
     </section>

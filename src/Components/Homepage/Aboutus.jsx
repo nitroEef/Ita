@@ -2,6 +2,7 @@ import "./Aboutus.css";
 
 function About() {
   return (
+    <div className="wallpaperabout">
     <div className="about-container">
       <h1>About Us</h1>
       <section className="about-section">
@@ -28,6 +29,7 @@ function About() {
           and city beautification through artistic and functional tiling.
         </p>
       </section>
+    </div>
     </div>
   );
 }

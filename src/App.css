@@ -1,3 +1,13 @@
+:root{
+    --back:#cbc1ae46;
+    --textcolor:#3c5b6f;
+    --secondback:#ad946d;
+    --secondtext:#624301;
+    --ws:whitesmoke;
+    --buttsize:1rem 3rem;
+    --buttradius:12px;
+}
 body{
-    background: #c0d75014;
+    background:var(--back);
+    color:var(--textcolor);
 }

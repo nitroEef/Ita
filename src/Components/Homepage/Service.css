@@ -1,17 +1,19 @@
 /* === Section Wrapper === */
 .services-section {
   padding: 5rem 2rem;
-  background: linear-gradient(135deg, #fdfbfb, #ebedee);
   font-family: 'Segoe UI', sans-serif;
   min-height: 50vh;
+
 }
+
 
 .services-section h2 {
   text-align: center;
   font-size: 2.8rem;
   margin-bottom: 4rem;
-  color: #222;
-  text-transform: uppercase;
+  
+ 
+  /* text-transform: uppercase; */
   position: relative;
 }
 
@@ -29,12 +31,14 @@
 .service-card {
   position: relative;
   padding: 2.5rem 2rem;
-  background: linear-gradient(to bottom right, #00ff99, #009966);
-  color: white;
   clip-path: polygon(0 0, 100% 10%, 100% 90%, 0% 100%);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
-  border: 2px solid #00cc66;
+  /* background: linear-gradient(#3c5b6f, #ad946d, whitesmoke); */
+  background: linear-gradient(135deg,#ad946d, #3c5b6f,  whitesmoke);
+
+color:whitesmoke;
+
 }
 
 .service-card:hover {
@@ -46,7 +50,7 @@
 .service-card h3 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
-  color: #fff;
+ color:var(--ws);
   position: relative;
   z-index: 2;
 }
@@ -54,6 +58,8 @@
 .service-card p {
   font-size: 1rem;
   line-height: 1.6;
+  
+
   z-index: 2;
   position: relative;
 }
@@ -67,4 +73,86 @@
   background: rgba(255, 255, 255, 0.05);
   clip-path: polygon(0 0, 100% 0, 100% 10%, 0 20%);
   z-index: 1;
+}
+
+
+/* ======== MEDIA QUERIES ======== */
+
+/* Large tablets and small laptops */
+@media (max-width: 1024px) {
+  .services-section {
+    padding: 4rem 1.5rem;
+  }
+
+  .services-section h2 {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+  }
+
+  .service-card {
+    padding: 2rem 1.5rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.5rem;
+  }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .services-section {
+    padding: 3rem 1rem;
+  }
+
+  .services-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr 1fr; /* 2 per row */
+    gap: 1.5rem;
+  }
+
+  .service-card {
+    padding: 1.8rem 1.2rem;
+  }
+
+  .service-card h3 {
+    font-size: 1.3rem;
+  }
+
+  .service-card p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  .services-section {
+    padding: 2.5rem 1rem;
+  }
+
+  .services-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+  }
+
+  .services-grid {
+    grid-template-columns: 1fr; /* single column */
+  }
+
+  .service-card {
+    padding: 1.5rem 1rem;
+    clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%); /* Slightly less tilt for readability */
+  }
+
+  .service-card h3 {
+    font-size: 1.2rem;
+  }
+
+  .service-card p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
 }

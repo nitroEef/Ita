@@ -7,15 +7,16 @@
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  color: #2d2d2e;
 }
+
 
 /* Heading */
 .history-container h2 {
   font-size: 2.8rem;
   font-weight: 800;
-  background: #000;
-  color: #131313;
+  color:var(--textcolor);
+  background: var(--textcolor);
+
   text-align: center;
   margin-bottom: 40px;
   -webkit-background-clip: text;
@@ -54,40 +55,23 @@
 /* Button - neon effect */
 .toggle-btn {
   margin-top: 30px;
-  padding: 14px 32px;
+  padding: var(--buttsize);
   font-size: 1.1rem;
   font-weight: 600;
-  color: #0f172a;
-  background: linear-gradient(to right, #38bdf8, #22d3ee);
-  border: none;
-  border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(56, 189, 248, 0.3);
+ color:var(--ws);
+ background-color: var(--secondback);
+
+  border: whitesmoke;
+  border-radius:var(--buttradius);
+  cursor: pointer;
+  box-shadow: 0 8px 20px #513F32;
   cursor: pointer;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .toggle-btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 12px 30px rgba(56, 189, 248, 0.5);
+  box-shadow: 0 12px 30px #513F32;
 }
 
-/* Responsive tweaks */
-@media screen and (max-width: 768px) {
-  .history-container {
-    padding: 60px 15px;
-  }
 
-  .history-text {
-    padding: 25px;
-    font-size: 1rem;
-  }
-
-  .toggle-btn {
-    width: 100%;
-    font-size: 1rem;
-  }
-
-  .history-container h2 {
-    font-size: 2rem;
-  }
-}

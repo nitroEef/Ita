@@ -2,15 +2,13 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 3rem 1.5rem;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
 }
 
 .headline {
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 3rem;
-  color: #054d29;
+  color:var(--textcolor);
   position: relative;
 }
 
@@ -50,6 +48,7 @@
 
 .photo-block img {
   max-width: 100%;
+  
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
@@ -63,13 +62,13 @@
 .photo-block h3 {
   margin-top: 1rem;
   font-size: 1.2rem;
-  color: #198754;
+  color: var(--textcolor);
 }
 
 .title {
   font-weight: bold;
   font-size: 0.95rem;
-  color: #666;
+  color:var(--secondtext);
   margin-top: 0.25rem;
 }
 
@@ -85,9 +84,9 @@
   margin-top: 3rem;
   font-size: 1.1rem;
   line-height: 1.8;
-  background: #e9f7f0;
+  background: var(--ws);
   padding: 2rem;
-  border-left: 6px solid #198754;
+  border-left: 6px solid var(--secondtext);
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
 }

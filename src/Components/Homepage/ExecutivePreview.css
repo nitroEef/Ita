@@ -1,12 +1,11 @@
 .members-preview {
   padding: 4rem 2rem;
-  background-color: #f5f5f5;
   text-align: center;
 }
 
 .members-preview h2 {
   font-size: 2rem;
-  color: #004d4d;
+  color: var(--colortext);
   margin-bottom: 2.5rem;
   display: flex;
   justify-content: center;
@@ -50,8 +49,8 @@
   bottom: 0;
   width: 100%;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.55); /* Semi-transparent dark background */
-  color: #fff;
+  background:#3c5b6fcf; /* Semi-transparent dark background */
+  color:var(--ws);
   text-align: left;
 }
 
@@ -67,18 +66,19 @@
 
 .view-all {
   margin-top: 2.5rem;
-  padding: 0.8rem 1.5rem;
-  background-color: #004d4d;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
+  padding: var(--buttsize);
+  background-color:var(--secondback);
+  color:var(--ws);
+  border: 1px solid var(--ws);
+  border-radius: var(--buttradius);
   font-size: 1rem;
   cursor: pointer;
   transition: background 0.3s ease;
 }
 
 .view-all:hover {
-  background-color: #007777;
+  background-color:var(--secondary);
+  color:var(--primary);
 }
 
 /* Responsive for mobile */

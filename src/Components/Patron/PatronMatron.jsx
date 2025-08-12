@@ -7,14 +7,14 @@ import chairmanImage from "/public/n.avif"; // 🔁 Replace with actual image
 const PatronMatron = () => {
   return (
     <div className="newspaper-section">
-      <h2 className="headline">Words from Our Patron, Matron & Chairman</h2>
+      <h2 className="headline">Words from Our Chairman, Patron & Matron  </h2>
 
       {/* Patron Section */}
       <div className="article">
         <div className="photo-block">
           <img src={patronImage} alt="Patron of the Association" />
-          <h3>Chief Alabi Adebayo</h3>
-          <p className="title">Patron</p>
+          <h3> Alabi Adebayo</h3>
+          <p className="title">Chairman</p>
         </div>
         <div className="article-text">
           <p>
@@ -28,8 +28,8 @@ const PatronMatron = () => {
       <div className="article reverse">
         <div className="photo-block">
           <img src={matronImage} alt="Matron of the Association" />
-          <h3>Mrs. Yetunde Oladimeji</h3>
-          <p className="title">Matron</p>
+          <h3>Mr Yetunde Oladimeji</h3>
+          <p className="title">Patron</p>
         </div>
         <div className="article-text">
           <p>
@@ -43,8 +43,8 @@ const PatronMatron = () => {
       <div className="article">
         <div className="photo-block">
           <img src={chairmanImage} alt="Chairman of the Association" />
-          <h3>Mr. Kolawole Tijani</h3>
-          <p className="title">Chairman</p>
+          <h3>MrS. Kolawole Tijani</h3>
+          <p className="title">Matron</p>
         </div>
         <div className="article-text">
           <p>

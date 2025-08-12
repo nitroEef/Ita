@@ -13,6 +13,7 @@ import Contact from "../Contact/Contact";
 import History from "./History";
 import PatronMatron from "../Patron/PatronMatron";
 import Faq from "../FAQ/Faq"
+import TilerGallery from "./TilerGallery";
 
 function Home() {
   return (
@@ -24,6 +25,7 @@ function Home() {
 <History />
 
       <About />
+   <Service />
 
       {/* Video Hero Section */}
       <section className="hero">
@@ -34,19 +36,19 @@ function Home() {
         <div className="hero-overlay">
           <h1>Building Better Spaces, One Tile at a Time</h1>
           <p>Professional tilers united to serve your needs in style and durability.</p>
-          <button className="cta-btn">Meet Our Members</button>
+          <Link to="/members"> <button className="cta-btn">Meet Our Members</button> 
+          </Link>
         </div>
       </section>
 
     
-   <Service />
     
 
 <ExecutivePreview />
     
     <PatronMatron />
   
-
+{/* <TilerGallery /> */}
       <Contact />
 
    

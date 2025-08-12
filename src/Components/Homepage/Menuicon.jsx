@@ -18,10 +18,7 @@ const MenuIcon = () => {
         <FaUsers size={20} />
         <span>Members</span>
       </button>
-      <button className="menu-icon-button" onClick={() => handleClick("contact")}>
-        <FaPhone size={20} />
-        <span>Contact</span>
-      </button>
+
       <button className="menu-icon-button" onClick={() => handleClick("history")}>
         <FaHistory size={20} />
         <span>Excos</span>
