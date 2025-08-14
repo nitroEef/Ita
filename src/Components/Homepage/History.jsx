@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./History.css";
+import { FaHistory, FaUsers, FaHandshake, FaBuilding, FaCertificate, FaCrown, FaGlobeAfrica } from "react-icons/fa";
 
 const HistoryWithToggle = () => {
   const [expanded, setExpanded] = useState(false);
@@ -10,26 +11,82 @@ const HistoryWithToggle = () => {
 
   return (
     <div className="history-container">
-      <h2>📜 Our History</h2>
+      <h2><FaHistory /> Our History</h2>
 
       <div className={`history-text ${expanded ? "expanded" : "collapsed"}`}>
         <p>
-          The Ilobu Tilers Association was founded out of a shared vision among a small group of hardworking artisans who sought unity, professionalism, and growth within their craft. In the early 2000s, tilers in Ilobu, Osun State, worked independently, often facing challenges such as poor pricing, lack of recognition, and limited access to quality materials or advanced training. The need to build a stronger, more structured community among tilers became increasingly evident.
+          The Ilobu Tilers Association, officially known as <strong>Terazol, Tiles, Interlocking, Cement Work, and POP Ilobu Osun State (TETICEAP)</strong>, was formed in <strong>2010</strong> by a small but determined group of tilers in Ilobu, Osun State. The vision was clear — to unite skilled professionals, promote high-quality craftsmanship, and create a support system for members in an increasingly competitive construction industry.
         </p>
+
         <p>
-          In 2008, a significant step was taken when three visionary tilers — Mr. Ganiyu Adebayo, Mr. Abdulmalik Ismail, and Mr. Ibrahim Sodiq — met at a construction site in the Konda area of Ilobu. Though they had worked individually for years, this meeting sparked deep conversations about the future of tiling as a skilled profession in the town. They agreed that something had to change.
+          In its early days, the association consisted of about <strong>12 founding members</strong>, including:
         </p>
+        <ul>
+          <li>Ogunmodede Azeez (First Chairman)</li>
+          <li>Hazan Abideen</li>
+          <li>Salam Muwaliu</li>
+          <li>Oseni Munirudeen Adesanjo</li>
+          <li>Olatoye Teslim</li>
+          <li>Olatunji Wakeel</li>
+          <li>Ibrahim Ridwan</li>
+          <li>Oseni Kozeem</li>
+          <li>Aasa Ifagbenleke</li>
+          <li>Badmus Hammed</li>
+          <li>Olagunju Asimiyu</li>
+        </ul>
+
         <p>
-          They began to hold informal meetings under a mango tree beside the old community hall. At first, there were only five members, but word spread quickly among other tilers in town. Within a few months, the number of regular attendees grew to over twenty. These meetings focused on standardizing service charges, sharing job opportunities, mentoring new apprentices, and encouraging ethical work practices.
+          The group’s first meetings were held every Sunday at <strong>L.A. Gbobamu Primary School, Ilobu</strong>, at 4 PM. Over the years, the meeting venues changed several times — from <strong>Dagbolu area</strong> to <strong>Balogun’s compound</strong>, then to the <strong>Ilobu House</strong>, and later to the <strong>Bricklayers House</strong>.
         </p>
+
+        <h3><FaUsers /> Leadership Timeline</h3>
         <p>
-          The association was formally registered in 2010 and soon became known for its commitment to quality craftsmanship, professional integrity, and community development.
+          - <strong>2010–2013:</strong> Ogunmodede Azeez served as the first Chairman until relocating out of state.<br />
+          - <strong>2013–2015:</strong> Hazan Abideen took over leadership.<br />
+          - <strong>2015–2020:</strong> Salam Muwaliu was elected through the first official vote.<br />
+          - <strong>2020–2023:</strong> Salawudeen Afeez assumed leadership after a democratic election.<br />
+          - <strong>2023–Present:</strong> Salawudeen Afeez was re-elected and continues to serve.
         </p>
+
+        <h3><FaCertificate /> Official Registration</h3>
         <p>
-          Leadership played a vital role in the growth of the association. Regular elections ensured fresh ideas and active participation, while mentorship programs helped new tilers develop the necessary skills to succeed.
+          In <strong>2011</strong>, TETICEAP was officially registered with the <strong>Osun State Ministry of Commerce, Abere</strong>. Members were issued both a certificate and identification cards — a milestone that established the association as a recognized professional body in Ilobu.
         </p>
+
+        <h3><FaHandshake /> Partnership with Osun State Tilers Association</h3>
         <p>
-          Today, the Ilobu Tilers Association stands as a proud symbol of unity, excellence, and perseverance — built from the ground up by people who believed in the power of working together.
+          While TETICEAP was our beginning, our journey reached new heights in <strong>2014</strong> when the <strong>Osun State Tilers Association (Interior & Exterior Decorators)</strong> visited us multiple times at Dagbolu. After careful deliberation, we proudly decided to join their ranks — a decision that reshaped our identity and broadened our horizons.
+        </p>
+
+        <p>
+          <strong><FaCrown /> The Osun State Tilers Association</strong> is more than just a union — it is the <em>prestigious umbrella body</em> representing tilers across the state, and one of the most respected tiling associations in Nigeria. Their reputation for excellence, fairness, and professional unity is unmatched. Through them, our work and our name travel far beyond Ilobu, carrying weight and recognition in every corner of Nigeria’s tiling and construction industry.
+        </p>
+
+        <ul>
+          <li><FaGlobeAfrica /> Recognized across Nigeria as a standard of tiling excellence.</li>
+          <li><FaHandshake /> Opens doors to major projects and government opportunities.</li>
+          <li><FaBuilding /> Strengthens our credibility before clients and contractors.</li>
+          <li><FaUsers /> Connects us to a powerful network of artisans and professionals.</li>
+        </ul>
+
+        <p>
+          Today, while we cherish our TETICEAP roots, we proudly operate under the banner of the <strong>Osun State Tilers Association</strong>. They are our voice, our shield, and our bridge to the wider world — and we honor them with the highest respect.
+        </p>
+
+        <h3><FaBuilding /> Our Purpose</h3>
+        <p>
+          TETICEAP was created to:
+        </p>
+        <ul>
+          <li>Promote excellence in tiling, terrazzo, interlocking, cement work, and POP decoration.</li>
+          <li>Standardize service charges and protect members from exploitation.</li>
+          <li>Encourage ethical practices and professional integrity.</li>
+          <li>Mentor and train new artisans in modern tiling techniques.</li>
+          <li>Provide a strong, united voice for tilers in Ilobu and beyond.</li>
+        </ul>
+
+        <p>
+          Together with the Osun State Tilers Association, we are building not only better floors and walls — but a stronger, united, and respected profession for generations to come.
         </p>
       </div>
 

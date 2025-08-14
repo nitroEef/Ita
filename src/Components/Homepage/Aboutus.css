@@ -1,13 +1,13 @@
 
 .wallpaperabout{
-  background: url(./public/mesh-757.png) repeat center ;
+  /* background: url(./public/mesh-757.png) repeat center ; */
   background-size: cover;
 }
 /* Container */
 .about-container {
   max-width: 1100px;
   margin: auto;
-  gap: 4rem;
+  gap: 3rem;
   margin-bottom:-5rem;
 }
 
@@ -49,20 +49,45 @@ color: var(--textcolor);
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+@media (max-width: 755px) {
   .about-container {
-    padding: 60px 16px;
+    margin-top: -11em;
+
   }
 
-  .about-container h1 {
-    font-size: 32px;
-  }
+  
+  .about-section {
+  padding: 25px 30px;
+  margin-bottom: 40px;
 
-  .about-section h2 {
-    font-size: 20px;
-  }
-
-  .about-section p {
-    font-size: 15px;
   }
 }
+
+
+@media (max-width: 452px) {
+  .about-container {
+    margin-top: -11em;
+
+  }
+
+  .about-section {
+  padding: 15px 30px;
+  margin-bottom: 40px;
+  border-radius: 14px;
+
+}
+}
+@media (max-width: 377px) {
+  .about-container {
+    background-color: black;
+    padding: 1px 16px;
+    margin-top: -8em;
+
+  }
+
+  
+}
+
+
+
+

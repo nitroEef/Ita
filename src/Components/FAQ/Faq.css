@@ -8,10 +8,10 @@
   margin-bottom:5rem;
 }
 
-.faq-container h1 {
+.faq-container h2 {
   text-align: center;
   margin-bottom: 30px;
-  color: #198754;
+  color: #873e19;
 }
 
 .faq-list {
@@ -62,15 +62,9 @@
 
 /* Mobile Friendly */
 @media (max-width: 600px) {
-  .faq-container {
-    padding: 15px;
+  .faq-container h2{
+    font-size: 22px;
   }
 
-  .faq-question h3 {
-    font-size: 1em;
-  }
-
-  .faq-question span {
-    font-size: 1.2em;
-  }
+  
 }

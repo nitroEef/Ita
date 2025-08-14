@@ -75,3 +75,49 @@
 }
 
 
+/* Small Phones */
+
+@media (max-width: 770px) {
+  .history-container{
+  position: relative;
+  bottom:14rem;
+    padding: 10px 20px;
+
+
+  }
+  .history-container h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+
+  margin-bottom: 10px;
+
+}} 
+
+
+
+@media (max-width: 670px) {
+  .history-container{
+  position: relative;
+  bottom:14rem;
+    padding: 10px 20px;
+
+  }
+  .history-container h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+
+  margin-bottom: 10px;
+
+}}
+
+@media (max-width: 359px) {
+  .history-container{
+  position: relative;
+  bottom:10rem;
+  background-color: red;
+    padding: 10px 20px;
+
+  }
+  .history-container h2 {
+  font-size: 2rem;}
+}

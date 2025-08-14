@@ -35,8 +35,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   /* background: linear-gradient(#3c5b6f, #ad946d, whitesmoke); */
-  background: linear-gradient(135deg,#ad946d, #3c5b6f,  whitesmoke);
-
+   background: url('/mesh4.png');
 color:whitesmoke;
 
 }

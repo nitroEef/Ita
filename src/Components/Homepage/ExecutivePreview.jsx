@@ -5,24 +5,35 @@ import { FaUsers } from "react-icons/fa";
 import "./ExecutivePreview.css";
 
 const executives = [
-  {
-    name: "Tiler Musa",
-    position: "Chairman",
-    phone: "08012345678",
-    image: "/oo.jpg",
+  { 
+    name: "Mr Salaudeen Afeez Flenjo", 
+    position: "Chairman", 
+    phone: "08012345678", 
+    image: "/oo.jpg", 
+    address: "No. 1 Tilers Street, Ilobu, Osun State" 
   },
-  {
-    name: "Tiler Ayo",
-    position: "Vice Chairman",
-    phone: "08023456789",
-    image: "/oo.jpg",
+  { 
+    name: "Mr. Ayo", 
+    position: "Vice Chairman", 
+    phone: "08023456789", 
+    image: "/oo.jpg", 
+    address: "No. 2 Tilers Street, Ilobu, Osun State" 
   },
-  {
-    name: "Tiler Sola",
-    position: "Secretary",
-    phone: "08034567890",
-    image: "/oo.jpg",
+  { 
+    name: "Mr. Mustapha Ismahil Adewale", 
+    position: "Secretary", 
+    phone: " 07038937441", 
+    image: "/oo.jpg", 
+    address: "Oganla compound, Ilobu, Osun State" 
   },
+    { 
+    name: "Mr. Mustapha Ismahil Adewale", 
+    position: "Secretary", 
+    phone: " 07038937441", 
+    image: "/oo.jpg", 
+    address: "Oganla compound, Ilobu, Osun State" 
+  }
+ 
 ];
 
 const ExecutivePreview = () => {
