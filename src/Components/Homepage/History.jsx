@@ -1,16 +1,21 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import "./History.css";
 import { FaHistory, FaUsers, FaHandshake, FaBuilding, FaCertificate, FaCrown, FaGlobeAfrica } from "react-icons/fa";
 
 const HistoryWithToggle = () => {
   const [expanded, setExpanded] = useState(false);
+  const topRef = useRef(null);
 
   const toggleReadMore = () => {
     setExpanded(!expanded);
+    // when closing, scroll to the top of the component
+    if (expanded && topRef.current) {
+      topRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
   };
 
   return (
-    <div className="history-container">
+    <div className="history-container" ref={topRef}>
       <h2><FaHistory /> Our History</h2>
 
       <div className={`history-text ${expanded ? "expanded" : "collapsed"}`}>

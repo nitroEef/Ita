@@ -144,10 +144,12 @@ color:var(--textcolor);
   .service-card {
     padding: 1.5rem 1rem;
     clip-path: polygon(0 0, 100% 8%, 100% 92%, 0% 100%); /* Slightly less tilt for readability */
+    background-size:cover;
   }
 
   .service-card h3 {
     font-size: 1.2rem;
+    color:black
   }
 
   .service-card p {
