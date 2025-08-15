@@ -1,8 +1,5 @@
 import React from "react";
 import "./PatronMatron.css";
-import patronImage from "/public/ilobu.png";
-import matronImage from "/public/oo.jpg";
-import chairmanImage from "/public/n.avif"; // 🔁 Replace with actual image
 
 const PatronMatron = () => {
   return (
@@ -12,7 +9,6 @@ const PatronMatron = () => {
       {/* Patron Section */}
       <div className="article">
         <div className="photo-block">
-          <img src={patronImage} alt="Patron of the Association" />
           <h3> Alabi Adebayo</h3>
           <p className="title">Chairman</p>
         </div>

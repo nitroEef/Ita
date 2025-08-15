@@ -5,20 +5,20 @@ import "./Executives.css";
 
 const executivesData = [
   { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Ejo", position: "Vice Chairman", phone: "08023456789", image: "/excopix/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/excopix/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
-  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/excopix/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
-  { name: "Mr. Ademola Satar", position: "Financial Secretary", phone: "08056789012", image: "/excopix/demola.jpg", address: "No. 5 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744773", image: "/excopix/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
-  { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO", phone: "09164337902", image: "/excopix/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
-  { name: "Mr. Adelaja Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/excopix/laja.jpg", address: "jagun area, Ilobu, Osun State" },
-  { name: "Mr. Adedeji Saheed", position: "Chief Task Officer", phone: "08102784645", image: "/excopix/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Saheed", position: "Assistant Secretary", phone: "08140928987", image: "/excopix/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/excopix/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
-  { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/excopix/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
-  { name: "Mr. Adekunle Nureni Adewale", position: "Assistant Secretary", phone: "08140928987", image: "/excopix/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/excopix/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
-  { name: "Mr.Ibrahim Najeem Adeyemi", position: "Assistant Sports Director", phone: "08167037434", image: "/excopix/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" }
+  { name: "Mr. Ejo", position: "Vice Chairman", phone: "08023456789", image: "/Ita/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
+  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/Ita/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
+  { name: "Mr. Ademola Satar", position: "Financial Secretary", phone: "08056789012", image: "/Ita/demola.jpg", address: "No. 5 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744773", image: "/Ita/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
+  { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO", phone: "09164337902", image: "/Ita/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
+  { name: "Mr. Adelaja Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/Ita/laja.jpg", address: "jagun area, Ilobu, Osun State" },
+  { name: "Mr. Adedeji Saheed", position: "Chief Task Officer", phone: "08102784645", image: "/Ita/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Saheed", position: "Assistant Secretary", phone: "08140928987", image: "/Ita/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/Ita/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
+  { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/Ita/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
+  { name: "Mr. Adekunle Nureni Adewale", position: "Assistant Secretary", phone: "08140928987", image: "/Ita/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/Ita/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
+  { name: "Mr.Ibrahim Najeem Adeyemi", position: "Assistant Sports Director", phone: "08167037434", image: "/Ita/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" }
 ];
 
 const positions = ["All", ...new Set(executivesData.map((e) => e.position))];

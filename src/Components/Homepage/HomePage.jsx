@@ -13,7 +13,6 @@ import Contact from "../Contact/Contact";
 import History from "./History";
 import PatronMatron from "../Patron/PatronMatron";
 import Faq from "../FAQ/Faq"
-import TilerGallery from "./TilerGallery";
 
 function Home() {
   return (
@@ -30,7 +29,7 @@ function Home() {
       {/* Video Hero Section */}
       <section className="hero">
         <video autoPlay muted loop className="hero-video">
-          <source src="/watermarked_preview.mp4" type="video/mp4" />
+          <source src="/Ita/watermarked_preview.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="hero-overlay">
@@ -46,7 +45,7 @@ function Home() {
 
 <ExecutivePreview />
     
-    <PatronMatron />
+    {/* <PatronMatron /> */}
   
 {/* <TilerGallery /> */}
       <Contact />

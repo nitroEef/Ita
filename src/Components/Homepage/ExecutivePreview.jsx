@@ -9,28 +9,28 @@ const executives = [
     name: "Mr Salaudeen Afeez Flenjo", 
     position: "Chairman", 
     phone: "08012345678", 
-    image: "/oo.jpg", 
+    image: "/Ita/ilobu.png", 
     address: "No. 1 Tilers Street, Ilobu, Osun State" 
   },
   { 
     name: "Mr. Ayo", 
     position: "Vice Chairman", 
     phone: "08023456789", 
-    image: "/oo.jpg", 
+    image: "/Ita/luk.jpg", 
     address: "No. 2 Tilers Street, Ilobu, Osun State" 
   },
   { 
     name: "Mr. Mustapha Ismahil Adewale", 
     position: "Secretary", 
     phone: " 07038937441", 
-    image: "/oo.jpg", 
+    image: "/Ita/small.jpg", 
     address: "Oganla compound, Ilobu, Osun State" 
   },
     { 
     name: "Mr. Mustapha Ismahil Adewale", 
     position: "Secretary", 
     phone: " 07038937441", 
-    image: "/oo.jpg", 
+    image: "/Ita/irun.jpg", 
     address: "Oganla compound, Ilobu, Osun State" 
   }
  
