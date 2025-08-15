@@ -42,7 +42,7 @@ const HeroSection = () => {
 
         {/* Right - Image */}
         <div className="popo-image-container">
-          <img src="/we.png" alt="Tiler at work" className="popo-image" />
+          <img src="/ilotiler.png" alt="Tiler at work" className="popo-image" />
         </div>
       </div>
     </section>
