@@ -8,55 +8,61 @@
   font-size: 2.5rem;
   text-align: center;
   margin-bottom: 3rem;
-  color:var(--textcolor);
   position: relative;
 }
 
 .headline::after {
   content: '';
-  width: 80px;
+  width: 330px;
   height: 4px;
   display: block;
   margin: 0.5rem auto 0;
+  background: var(--secondback);
   border-radius: 2px;
 }
 
+/* ========== NEUMORPHIC ARTICLE CARD ========== */
 .article {
   display: flex;
   align-items: flex-start;
   gap: 2rem;
   margin-bottom: 4rem;
-  padding: 2rem;
-  background: transparent;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
-  border-radius: 16px;
-  transition: transform 0.3s ease;
+  padding: 2.5rem 2rem;
+  border-radius: 25px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.12),
+              -15px -15px 25px rgba(255, 255, 255, 0.8);
+  transition: all 0.3s ease;
 }
 
 .article:hover {
   transform: translateY(-5px);
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15),
+              -10px -10px 20px rgba(255, 255, 255, 0.9);
 }
 
 .article.reverse {
   flex-direction: row-reverse;
 }
 
+/* ========== NEUMORPHIC PHOTO WRAPPER ========== */
 .photo-block {
   flex: 0 0 220px;
   text-align: center;
+  padding: 1.2rem;
+  border-radius: 18px;
+  background: #e8e6e1;
+  box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.12),
+              -8px -8px 15px rgba(255, 255, 255, 0.9);
 }
 
 .photo-block img {
   max-width: 100%;
-  
   border-radius: 12px;
   transition: transform 0.3s ease;
 }
 
-
-
 .photo-block img:hover {
-  transform: scale(1.05);
+  transform: scale(1.06);
 }
 
 .photo-block h3 {
@@ -68,41 +74,43 @@
 .title {
   font-weight: bold;
   font-size: 0.95rem;
-  color:var(--secondtext);
+  color: var(--secondtext);
   margin-top: 0.25rem;
 }
 
 .article-text {
   flex: 1;
   font-size: 1.05rem;
-  line-height: 1.7;
+  line-height: 1.75;
   color: #444;
   padding-top: 0.5rem;
 }
 
+/* ======== NEUMORPHIC RELATIONSHIP BOX ======== */
 .relationship {
   margin-top: 3rem;
   font-size: 1.1rem;
   line-height: 1.8;
-  background: var(--ws);
-  padding: 2rem;
+  background: #e8e6e1;
+  padding: 2.2rem;
+  border-radius: 20px;
   border-left: 6px solid var(--secondtext);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 12px 12px 24px rgba(0, 0, 0, 0.13),
+              -12px -12px 24px rgba(255, 255, 255, 0.9);
+  color: #333;
 }
 
-/* Responsive Design */
+
+/* =================== RESPONSIVE =================== */
 @media (max-width: 992px) {
   .article {
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-
   .article.reverse {
     flex-direction: column;
   }
-
   .article-text {
     text-align: left;
   }
@@ -112,11 +120,10 @@
   .headline {
     font-size: 1.5rem;
   }
-
+  .photo-block,
   .photo-block img {
     max-width: 150px;
   }
-
   .article-text {
     font-size: 0.98rem;
   }

@@ -128,6 +128,18 @@
     padding: 20px;
   }
 
+  .popo-content{
+    position:relative;
+    bottom:4rem;
+  }
+.popo-image-container{
+  height: 734px;
+}
+.popo-image {
+  width: 745px;
+  height: 545px;
+}
+
   .popo-content h1 {
     font-size: 1.8rem;
   }

@@ -1,11 +1,10 @@
 /* overall wrapper */
 .about-wrapper {
-  max-width: 1100px;
+  max-width: 1000px;
   margin: auto;
-  padding: 4rem 2rem;
+  padding: 3rem 2rem;
   text-align: center;
   font-family: "Segoe UI", sans-serif;
-  color: #42372f;
 }
 
 /* neumorphic soft buttons */
@@ -17,12 +16,11 @@
 }
 
 .tab-btn {
-  background: #e9e6e0;
+  background: #245cd3;
   border-radius: 40px;
   padding: 12px 28px;
   border: none;
   font-weight: 600;
-  color: #42372f;
   cursor: pointer;
   transition: all 0.3s ease;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15),
@@ -44,12 +42,11 @@
 
 /* content section */
 .tab-content {
-  background: #edeae3;
   margin-inline: auto;
-  max-width: 800px;
+  max-width: 500px;
   padding: 2rem;
   border-radius: 1.75rem;
-  box-shadow: 16px 16px 32px rgba(0, 0, 0, 0.15),
+  box-shadow: 16px 16px 32px rgba(38, 75, 223, 0.15),
     -16px -16px 32px rgba(255, 255, 255, 0.8);
   animation: popUp 0.4s ease-in-out;
   overflow: hidden;
@@ -80,5 +77,36 @@
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+
+@media (max-width: 767px) {
+  .about-wrapper {
+    padding: 2rem 1.2rem;
+    position: relative;
+    bottom:11rem
+  }
+
+  /* Stack buttons vertically on mobile/tablet */
+  .tab-buttons {
+    flex-direction: column;
+    gap: 1.8rem;
+    align-items: center;
+  }
+
+  .tab-btn {
+    width: 100%;
+    max-width: 260px;
+    height: 43px;
+  }
+
+  /* Make the content stretch full width */
+  .tab-content {
+    max-width: 100%;
+    padding: 1.5rem;
+  }
+
+  .tab-content p {
+    font-size: 0.95rem;
   }
 }

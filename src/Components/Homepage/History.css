@@ -2,7 +2,6 @@
 .history-container {
   width: 100%;
   padding: 80px 20px;
-  background: rgba(150, 173, 239, 0.744);
   
   display: flex;
   flex-direction: column;
@@ -11,15 +10,15 @@
 }
 /* History text collapsed */
 .history-text.collapsed {
-  max-height: 300px;      /* height of the preview */
+  max-height: 300px;     
   overflow: hidden;
   transition: max-height 0.5s ease;
 }
 
 /* History text expanded */
 .history-text.expanded {
-  max-height: 5000px;     /* very high to fit all content */
-  overflow: visible;      /* allow full text to show */
+  max-height: 5000px;     
+  overflow: visible;      
   transition: max-height 0.5s ease;
 }
 
@@ -40,11 +39,10 @@
 /* Main content card */
 .history-text {
   max-width: 1000px;
-  width: 100%;
+  /* width: 100%; */
   backdrop-filter: blur(66px);
   border-radius: 20px;
   padding: 40px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
   font-size: 1.1rem;
   line-height: 1.8;
   overflow: hidden;
@@ -129,23 +127,23 @@
   }
 
   .history-text.collapsed {
-    max-height: 200px; /* smaller preview for tiny screens */
+    max-height: 200px; 
   }
 
   .history-text.expanded {
-    max-height: 4000px; /* ensure all text fits */
+    max-height: 4000px;
   }
 
   .history-text p,
   .history-text ul,
   .history-text li {
-    font-size: 14px; /* smaller, readable text */
+    font-size: 14px; 
     line-height: 1.6;
   }
 
   .toggle-btn {
     font-size: 14px;
-    padding: 8px 12px;
+    padding: 15px 25px;
   }
 }
 

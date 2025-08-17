@@ -15,7 +15,7 @@ const tabs = [
     label: "Our Mission",
     content:
       "To promote quality craftsmanship, ensure fair practices among members, and contribute to the socio-economic development of our community through training and collaboration.",
-    img: "/Ita/mission.jpg"
+    img: "/Ita/mutiu.jpg"
   },
   {
     id: "impact",

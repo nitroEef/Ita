@@ -7,7 +7,7 @@ const Service = () => {
       <h2>Our Services</h2>
       <div className="services-grid">
         <div className="service-card">
-          <h3>Professional Tiling</h3>
+          <h3 >Professional Tiling</h3>
           <p>
             We specialize in delivering top-tier wall and floor tiling solutions
             tailored for residential, commercial, and industrial spaces. Our experienced

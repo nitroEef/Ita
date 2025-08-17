@@ -38,12 +38,12 @@ const executives = [
 
 const ExecutivePreview = () => {
   return (
-    <section className="members-preview">
+    <section className="exco-preview">
       <h2>
         <FaUsers style={{ marginRight: "10px" }} />
         Meet Our Executives
       </h2>
-      <div className="members-gridd">
+      <div className="exco-gridd">
         {executives.map((exec, index) => (
           <div className="executive-card" key={index}>
             <img src={exec.image} alt={exec.name} />
