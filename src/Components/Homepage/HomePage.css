@@ -76,8 +76,9 @@
   padding: var(--buttsize);
   font-size: 1rem;
   font-weight: 600;
-   background: var(--ws);
-  color:var(--textcolor);
+   background: var(--buttbac);
+  color:var(--ws);
+  letter-spacing: 1px;
 
   border-radius: 50px;
   cursor: pointer;
@@ -92,7 +93,6 @@ body{
 .cta-btn:hover {
   background: linear-gradient(135deg,#513F32 ,#eee9df);
   transform: scale(1.05);
-  color:var(--primary);
   box-shadow: 0 8px 20px whitesmoke;}
 
 /* Animations */

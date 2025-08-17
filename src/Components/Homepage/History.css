@@ -66,20 +66,21 @@
 
 /* Button - neon effect */
 .toggle-btn {
-  margin-top: 30px;
-  padding: var(--buttsize);
-  font-size: 1.1rem;
-  font-weight: 600;
- color:var(--ws);
- background-color: var(--secondback);
 
-  border: whitesmoke;
-  border-radius:var(--buttradius);
+  border: none;
+  padding: var(--buttsize);
+  font-size: 14px;
+  font-weight: 400;
+   background: var(--buttbac);
+  color:var(--ws);
+  letter-spacing: 1px;
+
+  border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 8px 20px #513F32;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition: all 0.3s ease;
+  animation: slideUp 1.6s ease-out forwards;
 }
+
 
 .toggle-btn:hover {
   transform: scale(1.05);
@@ -114,6 +115,13 @@
     padding: 10px 20px;
 
   }
+  .toggle-btn{
+    width: 100%;
+    max-width: 260px;
+    height: 47px;
+  }
+
+  }
   .history-container h2 {
   font-size: 2.3rem;
   font-weight: 700;
@@ -141,13 +149,10 @@
     line-height: 1.6;
   }
 
-  .toggle-btn {
-    font-size: 14px;
-    padding: 15px 25px;
-  }
+ 
 }
 
-}
+
 
 @media (max-width: 359px) {
   .history-container{

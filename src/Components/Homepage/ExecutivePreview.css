@@ -76,17 +76,21 @@
 
 /* View All Button */
 .view-all {
-  margin-top: 2rem;
-  color: #fff;
   border: none;
-  padding: .8rem 1.6rem;
-  border-radius: 999px;
+  padding: var(--buttsize);
+  margin-top: 2rem;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
+   background: var(--buttbac);
+  color:var(--ws);
+  letter-spacing: 1px;
+
+  border-radius: 50px;
   cursor: pointer;
-  transition: transform .2s ease, box-shadow .2s ease;
-  box-shadow: 0 10px 20px rgba(13, 70, 170, 0.25);
+  transition: all 0.3s ease;
+  animation: slideUp 1.6s ease-out forwards;
 }
+
 
 .view-all:hover {
   transform: translateY(-2px);

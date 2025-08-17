@@ -15,9 +15,10 @@ body{
 
  :root{
     --back:#9797ff33;
-    --textcolor:#603030;
+    --textcolor:#432c2c;
     --secondback:#212f96cd;
     --secondtext:#dadada;
+    --buttbac:rgba(0, 0, 0, 0.868);
     --ws:whitesmoke;
     --buttsize:1rem 3rem;
     --buttradius:12px;

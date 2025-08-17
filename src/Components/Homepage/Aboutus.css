@@ -16,12 +16,14 @@
 }
 
 .tab-btn {
-  background: #245cd3;
+  background: #0e0e0e;
   border-radius: 40px;
   padding: 12px 28px;
   border: none;
   font-weight: 600;
+  color: var(--ws);
   cursor: pointer;
+  letter-spacing: 3px;
   transition: all 0.3s ease;
   box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15),
     -6px -6px 12px rgba(255, 255, 255, 0.7);
@@ -38,6 +40,7 @@
   box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.15),
     inset -4px -4px 8px rgba(255, 255, 255, 0.8);
   transform: scale(0.98);
+  color:black;
 }
 
 /* content section */
