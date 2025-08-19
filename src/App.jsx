@@ -7,6 +7,7 @@ import Executives from "./Components/Executives/Executives.jsx";
 function App() {
   return (
     <Routes>
+
       <Route path="/" element={<Homepage />} />
       <Route path="/members" element={<Members />} />
       <Route path="/exco" element={<Executives />} />

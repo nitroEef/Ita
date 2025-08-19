@@ -48,22 +48,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
   font-size: 1.5rem;
   border-radius: var(--buttradius);
   text-decoration: none;
   transition: 0.3s ease;
-  background: var(--ws);
-}
-
-.icon-btn.whatsapp {
-  background: var(--secondback);
-}
-
-.icon-btn.email {
+  color: whitesmoke;
   background: var(--textcolor);
-  color: var(--ws);
 }
 
 .icon-btn:hover {
@@ -72,14 +64,14 @@
 
 /* Image Section */
 .popo-image-container {
-  flex: 1 1 400px;
-  display: flex;
-  justify-content: center;
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 .popo-image {
-  width: 645px;
-  height: 645px;
+  width: 100%;
+  display: block;
 }
 
 /* ===== RESPONSIVENESS ===== */
@@ -94,7 +86,6 @@
   .popo-content p {
     font-size: 0.95rem;
   }
-
 }
 
 /* Tablets */
@@ -109,8 +100,8 @@
     justify-content: center;
   }
 
-  .popo-image {
-    max-width: 80%;
+  .popo-image-container {
+    max-width: 350px;
   }
 
   .popo-content h1 {
@@ -128,17 +119,14 @@
     padding: 20px;
   }
 
-  .popo-content{
-    position:relative;
-    bottom:4rem;
+  .popo-content {
+    position: relative;
+    bottom: 2rem;
   }
-.popo-image-container{
-  height: 734px;
-}
-.popo-image {
-  width: 745px;
-  height: 545px;
-}
+
+  .popo-image-container {
+    max-width: 270px;
+  }
 
   .popo-content h1 {
     font-size: 1.8rem;
@@ -153,8 +141,6 @@
     height: 45px;
     font-size: 1.3rem;
   }
-
-
 }
 
 /* Small Phones */
@@ -164,7 +150,11 @@
     line-height: 1.3;
   }
 
-  .popo-content p { 
+  .popo-image-container {
+    max-width: 420px;
+  }
+
+  .popo-content p {
     font-size: 0.85rem;
   }
 
@@ -178,9 +168,4 @@
     height: 40px;
     font-size: 1.2rem;
   }
-.popo-image {
-  width: 1245px;
-  height: 745px;
-}
-
 }

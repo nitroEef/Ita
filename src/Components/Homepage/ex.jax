@@ -1,223 +1,87 @@
-<svg width="100%" height="100%" id="svg" viewBox="0 0 1440 490" xmlns="http://www.w3.org/2000/svg" class="transition duration-300 ease-in-out delay-150"><style>
-          .path-0{
-            animation:pathAnim-0 4s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-          }
-          @keyframes pathAnim-0{
-            0%{
-              d: path("M 0,500 L 0,125 C 41.46226067746686,140.8908321060383 82.92452135493372,156.78166421207658 147,151 C 211.07547864506628,145.21833578792342 297.764175257732,117.76417525773195 364,129 C 430.235824742268,140.23582474226805 476.01877761413846,190.1616347569956 533,183 C 589.9812223858615,175.8383652430044 658.1607142857143,111.58928571428571 719,77 C 779.8392857142857,42.41071428571429 833.3383652430044,37.48122238586156 884,67 C 934.6616347569956,96.51877761413844 982.4858247422683,160.48582474226802 1049,184 C 1115.5141752577317,207.51417525773198 1200.7183357879233,190.57547864506628 1269,174 C 1337.2816642120767,157.42452135493372 1388.6408321060385,141.21226067746687 1440,125 L 1440,500 L 0,500 Z");
-            }
-            25%{
-              d: path("M 0,500 L 0,125 C 64.41734167893962,118.85879970544919 128.83468335787924,112.71759941089837 178,96 C 227.16531664212076,79.28240058910163 261.0786082474226,51.98840206185568 326,71 C 390.9213917525774,90.01159793814432 486.85088365243007,155.32879234167893 549,163 C 611.1491163475699,170.67120765832107 639.5178571428571,120.69642857142856 693,113 C 746.4821428571429,105.30357142857144 825.0776877761413,139.88549337260676 886,130 C 946.9223122238587,120.11450662739324 990.1713917525774,65.76159793814435 1050,68 C 1109.8286082474226,70.23840206185565 1186.2367452135495,129.0681148748159 1254,148 C 1321.7632547864505,166.9318851251841 1380.8816273932252,145.96594256259203 1440,125 L 1440,500 L 0,500 Z");
-            }
-            50%{
-              d: path("M 0,500 L 0,125 C 67.91365979381443,126.88383652430045 135.82731958762886,128.7676730486009 190,141 C 244.17268041237114,153.2323269513991 284.60438144329896,175.8131443298969 337,171 C 389.39561855670104,166.1868556701031 453.7551546391752,133.9797496318115 524,119 C 594.2448453608248,104.02025036818848 670.3750000000001,106.26785714285712 731,97 C 791.6249999999999,87.73214285714288 836.7448453608246,66.94882179675994 903,67 C 969.2551546391754,67.05117820324006 1056.645618556701,87.93685567010309 1113,103 C 1169.354381443299,118.06314432989691 1194.6726804123712,127.30375552282769 1244,130 C 1293.3273195876288,132.6962444771723 1366.6636597938145,128.84812223858614 1440,125 L 1440,500 L 0,500 Z");
-            }
-            75%{
-              d: path("M 0,500 L 0,125 C 40.392120765832104,98.27927098674522 80.78424153166421,71.55854197349042 155,71 C 229.2157584683358,70.44145802650958 337.25515463917526,96.0451030927835 392,96 C 446.74484536082474,95.9548969072165 448.19513991163467,70.26104565537557 507,65 C 565.8048600883653,59.73895434462444 681.9642857142858,74.91071428571429 753,84 C 824.0357142857142,93.08928571428571 849.9477172312222,96.0960972017673 893,113 C 936.0522827687778,129.9039027982327 996.2448453608247,160.70489690721647 1056,174 C 1115.7551546391753,187.29510309278353 1175.0729013254786,183.0843151693667 1239,172 C 1302.9270986745214,160.9156848306333 1371.4635493372607,142.95784241531663 1440,125 L 1440,500 L 0,500 Z");
-            }
-            100%{
-              d: path("M 0,500 L 0,125 C 41.46226067746686,140.8908321060383 82.92452135493372,156.78166421207658 147,151 C 211.07547864506628,145.21833578792342 297.764175257732,117.76417525773195 364,129 C 430.235824742268,140.23582474226805 476.01877761413846,190.1616347569956 533,183 C 589.9812223858615,175.8383652430044 658.1607142857143,111.58928571428571 719,77 C 779.8392857142857,42.41071428571429 833.3383652430044,37.48122238586156 884,67 C 934.6616347569956,96.51877761413844 982.4858247422683,160.48582474226802 1049,184 C 1115.5141752577317,207.51417525773198 1200.7183357879233,190.57547864506628 1269,174 C 1337.2816642120767,157.42452135493372 1388.6408321060385,141.21226067746687 1440,125 L 1440,500 L 0,500 Z");
-            }
-          }</style><defs><linearGradient id="gradient" x1="17%" y1="12%" x2="83%" y2="88%"><stop offset="5%" stop-color="#0693e3"></stop><stop offset="95%" stop-color="#ffffff"></stop></linearGradient></defs><path d="M 0,500 L 0,125 C 41.46226067746686,140.8908321060383 82.92452135493372,156.78166421207658 147,151 C 211.07547864506628,145.21833578792342 297.764175257732,117.76417525773195 364,129 C 430.235824742268,140.23582474226805 476.01877761413846,190.1616347569956 533,183 C 589.9812223858615,175.8383652430044 658.1607142857143,111.58928571428571 719,77 C 779.8392857142857,42.41071428571429 833.3383652430044,37.48122238586156 884,67 C 934.6616347569956,96.51877761413844 982.4858247422683,160.48582474226802 1049,184 C 1115.5141752577317,207.51417525773198 1200.7183357879233,190.57547864506628 1269,174 C 1337.2816642120767,157.42452135493372 1388.6408321060385,141.21226067746687 1440,125 L 1440,500 L 0,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="0.53" class="transition-all duration-300 ease-in-out delay-150 path-0"></path><style>
-          .path-1{
-            animation:pathAnim-1 4s;
-            animation-timing-function: linear;
-            animation-iteration-count: infinite;
-          }
-          @keyframes pathAnim-1{
-            0%{
-              d: path("M 0,500 L 0,291 C 80.01840942562592,301.77522091310755 160.03681885125184,312.55044182621504 213,319 C 265.96318114874816,325.44955817378496 291.87113402061857,327.5734536082474 349,311 C 406.12886597938143,294.4265463917526 494.4786450662739,259.1557437407953 551,272 C 607.5213549337261,284.8442562592047 632.2142857142857,345.80357142857144 697,353 C 761.7857142857143,360.19642857142856 866.664212076583,313.629970544919 929,290 C 991.335787923417,266.370029455081 1011.1288659793815,265.67654639175254 1065,271 C 1118.8711340206185,276.32345360824746 1206.820324005891,287.6638438880707 1275,292 C 1343.179675994109,296.3361561119293 1391.5898379970545,293.66807805596466 1440,291 L 1440,500 L 0,500 Z");
-            }
-            25%{
-              d: path("M 0,500 L 0,291 C 64.91402798232694,315.139911634757 129.82805596465388,339.279823269514 186,344 C 242.17194403534612,348.720176730486 289.60180412371136,334.02061855670104 348,336 C 406.39819587628864,337.97938144329896 475.76472754050076,356.6377025036819 539,338 C 602.2352724594992,319.3622974963181 659.3392857142858,263.42857142857144 711,242 C 762.6607142857142,220.57142857142856 808.8781296023562,233.64801178203237 867,262 C 925.1218703976438,290.35198821796763 995.1481958762886,333.97938144329896 1063,331 C 1130.8518041237114,328.02061855670104 1196.529086892489,278.4344624447717 1259,264 C 1321.470913107511,249.56553755522827 1380.7354565537555,270.28276877761414 1440,291 L 1440,500 L 0,500 Z");
-            }
-            50%{
-              d: path("M 0,500 L 0,291 C 77.20250368188513,314.72183357879237 154.40500736377027,338.4436671575847 208,321 C 261.59499263622973,303.5563328424153 291.58247422680415,244.94716494845358 343,252 C 394.41752577319585,259.0528350515464 467.2650957290132,331.7676730486009 536,351 C 604.7349042709868,370.2323269513991 669.357142857143,335.9821428571429 730,309 C 790.642857142857,282.0178571428571 847.3063328424153,262.3037555228277 908,246 C 968.6936671575847,229.6962444771723 1033.4175257731956,216.80283505154637 1097,230 C 1160.5824742268044,243.19716494845363 1223.0235640648013,282.48490427098676 1280,297 C 1336.9764359351987,311.51509572901324 1388.4882179675992,301.2575478645066 1440,291 L 1440,500 L 0,500 Z");
-            }
-            75%{
-              d: path("M 0,500 L 0,291 C 72.3939617083947,290.3621134020618 144.7879234167894,289.7242268041237 207,285 C 269.2120765832106,280.2757731958763 321.24226804123714,271.465206185567 371,263 C 420.75773195876286,254.534793814433 468.2430044182622,246.41494845360825 527,258 C 585.7569955817378,269.58505154639175 655.7857142857143,300.875 727,306 C 798.2142857142857,311.125 870.6141384388808,290.08505154639175 925,303 C 979.3858615611192,315.91494845360825 1015.7577319587629,362.784793814433 1069,351 C 1122.2422680412371,339.215206185567 1192.3549337260677,268.7757731958763 1257,249 C 1321.6450662739323,229.2242268041237 1380.8225331369663,260.1121134020618 1440,291 L 1440,500 L 0,500 Z");
-            }
-            100%{
-              d: path("M 0,500 L 0,291 C 80.01840942562592,301.77522091310755 160.03681885125184,312.55044182621504 213,319 C 265.96318114874816,325.44955817378496 291.87113402061857,327.5734536082474 349,311 C 406.12886597938143,294.4265463917526 494.4786450662739,259.1557437407953 551,272 C 607.5213549337261,284.8442562592047 632.2142857142857,345.80357142857144 697,353 C 761.7857142857143,360.19642857142856 866.664212076583,313.629970544919 929,290 C 991.335787923417,266.370029455081 1011.1288659793815,265.67654639175254 1065,271 C 1118.8711340206185,276.32345360824746 1206.820324005891,287.6638438880707 1275,292 C 1343.179675994109,296.3361561119293 1391.5898379970545,293.66807805596466 1440,291 L 1440,500 L 0,500 Z");
-            }
-          }</style><defs><linearGradient id="gradient" x1="17%" y1="12%" x2="83%" y2="88%"><stop offset="5%" stop-color="#0693e3"></stop><stop offset="95%" stop-color="#ffffff"></stop></linearGradient></defs><path d="M 0,500 L 0,291 C 80.01840942562592,301.77522091310755 160.03681885125184,312.55044182621504 213,319 C 265.96318114874816,325.44955817378496 291.87113402061857,327.5734536082474 349,311 C 406.12886597938143,294.4265463917526 494.4786450662739,259.1557437407953 551,272 C 607.5213549337261,284.8442562592047 632.2142857142857,345.80357142857144 697,353 C 761.7857142857143,360.19642857142856 866.664212076583,313.629970544919 929,290 C 991.335787923417,266.370029455081 1011.1288659793815,265.67654639175254 1065,271 C 1118.8711340206185,276.32345360824746 1206.820324005891,287.6638438880707 1275,292 C 1343.179675994109,296.3361561119293 1391.5898379970545,293.66807805596466 1440,291 L 1440,500 L 0,500 Z" stroke="none" stroke-width="0" fill="url(#gradient)" fill-opacity="1" class="transition-all duration-300 ease-in-out delay-150 path-1"></path></svg>
+ { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
+  { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/Ita/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
+  { name: "Mr. Adekunle Nureni Adewale", position: "Pro 1", phone: "08140928987", image: "/Ita/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/Ita/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
+  { name: "Mr. Muftar Satar Ademola", position: "Assistant Secretary", phone: "09067995103", image: "/Ita/demola.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08167037434", image: "/Ita/arod.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/Ita/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744763", image: "/Ita/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
+  { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO 2", phone: "09164337902", image: "/Ita/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
+  { name: "Mr. Rasheed Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/Ita/laja.jpg", address: "jagun area, Ilobu, Osun State" },
+  { name: "Mr. Ibraheem Najeem", position: "Assistant Sport Director", phone: "08167037434", image: "/Ita/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Saheed", position: "Chief Task Officer", phone: "07066007989", image: "/Ita/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Adedeji Saheed", position: "Assistant Chief Task Officer", phone: "08102784645", image: "/Ita/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
+  { name: "Mr. Raheem Sarafa OLalekan", position: "Task Officer", phone: "08163827108", image: "/Ita/yemi.jpg", address: "Jagun compound, Ilobu, Osun State" },
+  { name: "Mr. Yinusa Sarafadeen Ayinde", position: "Task Officer", phone: "09034956737", image: "/Ita/sarafa.jpg", address: "Alagba compound, Ilobu, Osun State" },
+  { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/Ita/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
+  { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/Ita/aro.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "08163666812", image: "/Ita/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
 
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/munir.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/sakir2.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Salawudeen Taiwo Hassan", position: "Member", phone: "07036157039", image: "/Ita/taiwo3.jpg", address: ", Akunsin compound,Ilobu, Osun State" },
+  { name: "Mr. Abidoye Oluwafemi Olaitan ", position: "Member", phone: "09024776837", image: "/Ita/femi4.jpg", address: ",Olobu compound, Ilobu, Osun State" },
+  { name: "Mr. AbdulRahman Faruq Adisa ", position: "Member", phone: "09117374985", image: "/Ita/faruq5.jpg", address: ", Agboni compound,Ilobu, Osun State" },
+  { name: "Mr. Jimoh Azeez Folaranmi", position: "Member", phone: "070626961729", image: "/Ita/fola6.jpg", address: ", Jagun compound ,Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/oga.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/taohee7.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/sakeight.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/fadene.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/olareleten.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/labi11.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/key12.jpg", address: ", Ilobu, Osun State" },
 
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Ajibade Lateef O. ", position: "Member", phone: "08136340736", image: "/Ita/ilobu.png", address: "Ibikunle estate, Okinni, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
 
-
-
-
-          
-.wallpaperabout{
-  /* background: url(./public/mesh-757.png) repeat center ; */
-  background-size: cover;
-}
-/* Container */
-.about-container {
-  max-width: 1100px;
-  margin: auto;
-  gap: 3rem;
-  margin-bottom:-5rem;
-}
-
-
-.about-container h1 {
-  font-size: 40px;
-  text-align: center;
-  position: relative;
-  margin-bottom: 60px;
-}
-
-
-.about-section {
-  padding: 35px 30px;
-  margin-bottom: 110px;
-  border-radius: 14px;
-  box-shadow: var(--secondtext) 0 1px 1px;
-  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
-}
-
-.about-section:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 15px 35px var(--ws);}
-/* Section Titles */
-.about-section h2 {
-  font-size: 24px;
-  margin-bottom: 15px;
-
-  border-left: 7px solid var(--secondtext);
-  padding-left: 15px;
-}
-
-/* Paragraph Text */
-.about-section p {
-  font-size: 17px;
-  line-height: 1.7;
-color: var(--textcolor);
-  margin-top: 10px;
-}
-
-/* Responsive */
-@media (max-width: 755px) {
-  .about-container {
-    margin-top: -11em;
-
-  }
-
-  
-  .about-section {
-  padding: 25px 30px;
-  margin-bottom: 40px;
-
-  }
-}
-
-
-@media (max-width: 452px) {
-  .about-container {
-    margin-top: -11em;
-
-  }
-
-  .about-section {
-  padding: 15px 30px;
-  margin-bottom: 40px;
-  border-radius: 14px;
-
-}
-}
-@media (max-width: 377px) {
-  .about-container {
-    background-color: black;
-    padding: 1px 16px;
-    margin-top: -8em;
-
-  }
-
-  
-}
-
-
-
-
-Alright — I’ll rewrite your text into a **clear, polished, and engaging version** while also adding the **reasons why the association was created** and **why it joined the Osun State Tilers Association**, based on the details you gave.
-
----
-
-## **About Us – TETICEAP (Ilobu Tilers Association)**
-
-Our journey as tilers in Ilobu began in **2010**, starting with just twelve passionate craftsmen united by the goal of improving tiling work in our community.
-Our first chairman was **Mr. Ogunmodede Azeez**, and our meetings were held every Sunday at **L.A. Gbobamu Primary School, Ilobu** by 4 p.m.
-
-When Mr. Ogunmodede relocated out of the state, the association moved its meeting venue to the **Dagbolu area, Ilobu**, where **Mr. Hazan Abideen** was appointed as the new chairman in **2013/2014**.
-
-Later, we moved to **Balogun’s Compound** in Ilobu. In 2015, we held our first election, in which **Mr. Salam Muwaliu** emerged as chairman. Meetings continued until 2018, when we moved to **Ilobu House**, and later to the **Bricklayers’ House**.
-
-In **2020**, we conducted another election at the Bricklayers’ House, where **Mr. Salaudeen Afeez** was elected chairman. He completed his first tenure in 2023 and was re-elected, continuing to serve as chairman to date.
-
----
-
-### **Founding Members**
-
-1. Ogunmodede Azeez
-2. Hazan Abideen
-3. Salam Muwaliu
-4. Oseni Munirudeen Adesanjo
-5. Olatoye Teslim
-6. Olatunji Wakeel
-7. Ibrahim Ridwan
-8. Oseni Kozeem
-9. Aasa Ifagbenleke
-10. Badmus Hammed
-11. Olagunju Asimiyu
-
----
-
-### **Our Registration**
-
-We officially registered as **Terazol, Tiles, Interlocking, Cement Work, and POP Ilobu Osun State (TETICEAP)** in **2011** with the **Ministry of Commerce, Abere**. That same year, we received both our **certificate** and **ID cards** from the state government.
-
----
-
-### **Why We Created the Association**
-
-The association was formed to:
-
-* Unite all professional tilers in Ilobu under one body.
-* Promote excellence, skill, and innovation in tiling, terrazzo, interlocking, cement work, and POP design.
-* Protect the interests of our members and ensure fair work opportunities.
-* Provide training, mentorship, and development for upcoming tilers.
-* Foster cooperation, trust, and mutual support among members.
-
----
-
-### **Joining the Osun State Tilers Association**
-
-In **2014**, the **Osun State Tilers Association (Interior & Exterior Decorators)** visited us multiple times at our Dagbolu meeting venue, encouraging us to join them. After careful consideration, we agreed to become members.
-
-We joined because:
-
-* It gave us a stronger voice and representation at the state level.
-* It connected us to a wider network of professional tilers across Osun State.
-* It provided opportunities for collaborative projects, workshops, and government recognition.
-* It strengthened our ability to protect members’ rights and negotiate fair contracts.
-
-Even today, if we choose not to remain part of the state body, **TETICEAP** still stands strong as a fully registered association with our own certificate and legal recognition by the Osun State Government.
-
----
-
-If you want, I can now **turn this into a beautifully styled “About Us” page** for your React project so it looks official and premium.
-
-Do you want me to prepare that?
-
-
-
-git add .
-git commit -m "update"  
-git push origin main  
-
-npm run deploy
-
-erlrlrlrllrlrhbsuwioioiowbcuwb
+];

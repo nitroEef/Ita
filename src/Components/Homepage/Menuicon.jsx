@@ -1,28 +1,25 @@
 import React from "react";
-import { FaHome, FaUsers, FaPhone, FaHistory } from "react-icons/fa";
+import { FaHome, FaUsers, FaHistory } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import "./MenuIcon.css";
 
 const MenuIcon = () => {
-  const handleClick = (section) => {
-    console.log(`Navigating to ${section}`);
-    // TODO: Use react-router or scroll into view
-  };
-
   return (
     <div className="menu-bar-container">
-      <button className="menu-icon-button" onClick={() => handleClick("home")}>
+      <Link to="/" className="menu-icon-button">
         <FaHome size={20} />
         <span>Home</span>
-      </button>
-      <button className="menu-icon-button" onClick={() => handleClick("members")}>
+      </Link>
+
+      <Link to="/members" className="menu-icon-button">
         <FaUsers size={20} />
         <span>Members</span>
-      </button>
+      </Link>
 
-      <button className="menu-icon-button" onClick={() => handleClick("history")}>
+      <Link to="/exco" className="menu-icon-button">
         <FaHistory size={20} />
         <span>Excos</span>
-      </button>
+      </Link>
     </div>
   );
 };

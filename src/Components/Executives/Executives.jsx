@@ -2,23 +2,32 @@
 import React, { useState, useEffect, useRef } from "react";
 import { FaUsers, FaWhatsapp } from "react-icons/fa";
 import "./Executives.css";
+import Menuicon from "../Homepage/Menuicon";
+
 
 const executivesData = [
   { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Ejo", position: "Vice Chairman", phone: "08023456789", image: "/Ita/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
-  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/Ita/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
-  { name: "Mr. Ademola Satar", position: "Financial Secretary", phone: "08056789012", image: "/Ita/demola.jpg", address: "No. 5 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744773", image: "/Ita/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
-  { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO", phone: "09164337902", image: "/Ita/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
-  { name: "Mr. Adelaja Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/Ita/laja.jpg", address: "jagun area, Ilobu, Osun State" },
-  { name: "Mr. Adedeji Saheed", position: "Chief Task Officer", phone: "08102784645", image: "/Ita/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Saheed", position: "Assistant Secretary", phone: "08140928987", image: "/Ita/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/Ita/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
-  { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/Ita/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
-  { name: "Mr. Adekunle Nureni Adewale", position: "Assistant Secretary", phone: "08140928987", image: "/Ita/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/Ita/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
-  { name: "Mr.Ibrahim Najeem Adeyemi", position: "Assistant Sports Director", phone: "08167037434", image: "/Ita/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" }
+  { name: "Mr. Adekunle Nureni Adewale", position: "Pro 1", phone: "08140928987", image: "/Ita/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/Ita/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
+  { name: "Mr. Muftar Satar Ademola", position: "Assistant Secretary", phone: "09067995103", image: "/Ita/demola.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08167037434", image: "/Ita/arod.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/Ita/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744763", image: "/Ita/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
+  { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO 2", phone: "09164337902", image: "/Ita/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
+  { name: "Mr. Rasheed Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/Ita/laja.jpg", address: "jagun area, Ilobu, Osun State" },
+  { name: "Mr. Ibraheem Najeem", position: "Assistant Sport Director", phone: "08167037434", image: "/Ita/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Saheed", position: "Chief Task Officer", phone: "07066007989", image: "/Ita/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Adedeji Saheed", position: "Assistant Chief Task Officer", phone: "08102784645", image: "/Ita/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
+  { name: "Mr. Raheem Sarafa OLalekan", position: "Task Officer", phone: "08163827108", image: "/Ita/yemi.jpg", address: "Jagun compound, Ilobu, Osun State" },
+  { name: "Mr. Yinusa Sarafadeen Ayinde", position: "Task Officer", phone: "09034956737", image: "/Ita/sarafa.jpg", address: "Alagba compound, Ilobu, Osun State" },
+  { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/Ita/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
+  { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/Ita/aro.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "08163666812", image: "/Ita/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
+
+
 ];
 
 const positions = ["All", ...new Set(executivesData.map((e) => e.position))];
@@ -38,7 +47,7 @@ export default function Executives() {
   const [currentPage, setCurrentPage] = useState(1);
   const [displayed, setDisplayed] = useState([]);
 
-  const execsPerPage = 6;
+  const execsPerPage = 8;
 
   const filteredExecs = executivesData.filter((exec) => {
     const q = search.trim().toLowerCase();
@@ -53,15 +62,11 @@ export default function Executives() {
 
   const totalPages = Math.ceil(filteredExecs.length / execsPerPage);
 
-  useEffect(() => {
-    if (totalPages > 0 && currentPage > totalPages) {
-      setCurrentPage(1);
-      return;
-    }
-    const start = (currentPage - 1) * execsPerPage;
-    const end = start + execsPerPage;
-    setDisplayed(filteredExecs.slice(start, end));
-  }, [filteredExecs, currentPage, totalPages]);
+useEffect(() => {
+  const start = (currentPage - 1) * execsPerPage;
+  const end = start + execsPerPage;
+  setDisplayed(filteredExecs.slice(start, end));
+}, [currentPage, filter, search]);
 
   const handleFilterChange = (e) => {
     setFilter(e.target.value);
@@ -164,6 +169,7 @@ export default function Executives() {
           </button>
         </div>
       )}
+      <Menuicon />
     </section>
   );
 }
