@@ -25,21 +25,19 @@
 
 /* Heading */
 .history-container h2 {
-  font-size: 2.8rem;
-  font-weight: 800;
+  font-size: 2.5rem;
+  font-weight: 700;
   color:var(--textcolor);
   background: var(--textcolor);
-
+text-decoration:double;
   text-align: center;
   margin-bottom: 40px;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-/* Main content card */
 .history-text {
   max-width: 1000px;
-  /* width: 100%; */
   backdrop-filter: blur(66px);
   border-radius: 20px;
   padding: 40px;

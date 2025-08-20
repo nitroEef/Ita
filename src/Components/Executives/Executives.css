@@ -45,8 +45,8 @@
 
 .exe-controls select:focus,
 .exe-search:focus {
-  border-color: #ff9800;
-  box-shadow: 0 0 8px rgba(255, 152, 0, 0.5);
+  border-color: #101aa4;
+  box-shadow: 0 0 8px rgba(58, 79, 237, 0.5);
 }
 
 /* ===== Grid Layout (Always 4 in a row for large screens) ===== */
