@@ -1,11 +1,11 @@
-// Members.jsx
 import React, { useState, useEffect, useRef } from "react";
 import { FaUsers, FaWhatsapp } from "react-icons/fa";
 import "./Members.css";
 import Menuicon from "../Homepage/Menuicon";
 
+const filterTypes = ["Exco", "Member"];
 
-const membersData = [
+  const membersData = [
    { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
@@ -92,9 +92,9 @@ const membersData = [
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/luk.jpg", address: ", Ilobu, Osun State" },
 
-];
 
-const filterTypes = ["Exco", "Member"];
+
+];
 
 function formatPhoneForWhatsApp(phone = "") {
   const digits = phone.replace(/\D/g, "");
@@ -105,57 +105,75 @@ function formatPhoneForWhatsApp(phone = "") {
 
 export default function Members() {
   const topRef = useRef(null);
-  const [filter, setFilter] = useState("Member");
+
+  const [filter, setFilter] = useState("All");
   const [search, setSearch] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
   const [displayed, setDisplayed] = useState([]);
 
   const perPage = 15;
 
-  const filtered = membersData.filter((m) => {
-    const q = search.trim().toLowerCase();
-    const matchesType = filter === "Member" ? true : false;
-    const matchesSearch = !q || m.name.toLowerCase().includes(q) || m.phone.includes(q) || m.position.toLowerCase().includes(q) || m.address.toLowerCase().includes(q);
-    return matchesType && matchesSearch;
-  });
+  // Filter + search
+  useEffect(() => {
+    const filteredMembers = membersData.filter((m) => {
+      const q = search.trim().toLowerCase();
+      const matchesType = filter === "All" ? true : m.position === filter;
+      const matchesSearch =
+        !q ||
+        m.name.toLowerCase().includes(q) ||
+        m.phone.includes(q) ||
+        m.position.toLowerCase().includes(q) ||
+        m.address.toLowerCase().includes(q);
+      return matchesType && matchesSearch;
+    });
 
-  const total = Math.ceil(filtered.length / perPage);
-useEffect(() => {
-  const filteredMembers = membersData.filter((m) => {
-    const q = search.trim().toLowerCase();
-    const matchesType = filter === "Member" ? true : false;
-    const matchesSearch =
-      !q ||
-      m.name.toLowerCase().includes(q) ||
-      m.phone.includes(q) ||
-      m.position.toLowerCase().includes(q) ||
-      m.address.toLowerCase().includes(q);
-    return matchesType && matchesSearch;
-  });
+    const totalPages = Math.ceil(filteredMembers.length / perPage);
 
-  const totalPages = Math.ceil(filteredMembers.length / perPage);
+    // reset to page 1 if current page > total
+    if (totalPages > 0 && currentPage > totalPages) {
+      setCurrentPage(1);
+      return;
+    }
 
-  if (totalPages > 0 && currentPage > totalPages) {
+    const start = (currentPage - 1) * perPage;
+    const end = start + perPage;
+    setDisplayed(filteredMembers.slice(start, end));
+  }, [currentPage, search, filter]);
+
+  const handleFilter = (e) => {
+    setFilter(e.target.value);
     setCurrentPage(1);
-    return;
-  }
+  };
 
-  const start = (currentPage - 1) * perPage;
-  const end = start + perPage;
-  setDisplayed(filteredMembers.slice(start, end));
-}, [currentPage, search, filter]);
+  const handleSearch = (e) => {
+    setSearch(e.target.value);
+    setCurrentPage(1);
+  };
 
-const handleFilter = (e) => {
-  setFilter(e.target.value);
-  setCurrentPage(1);
-};
+  const handlePage = (page) => {
+    setCurrentPage(page);
+    // Scroll back to the top of section
+    if (topRef.current) {
+      window.scrollTo({
+        top: topRef.current.offsetTop - 20,
+        behavior: "smooth"
+      });
+    }
+  };
 
-const handleSearch = (e) => {
-  setSearch(e.target.value);
-  setCurrentPage(1);
-};
-
-
+  const total = Math.ceil(
+    membersData.filter((m) => {
+      const q = search.trim().toLowerCase();
+      const matchesType = filter === "All" ? true : m.position === filter;
+      const matchesSearch =
+        !q ||
+        m.name.toLowerCase().includes(q) ||
+        m.phone.includes(q) ||
+        m.position.toLowerCase().includes(q) ||
+        m.address.toLowerCase().includes(q);
+      return matchesType && matchesSearch;
+    }).length / perPage
+  );
 
   return (
     <section className="mem-preview" ref={topRef}>
@@ -166,21 +184,39 @@ const handleSearch = (e) => {
         <p>Registered members of the Ilobu Tilers Association.</p>
       </div>
 
-      
+      <div className="mem-controls">
+        <input
+          type="search"
+          placeholder="Search members by name, number or position..."
+          value={search}
+          onChange={handleSearch}
+          className="mem-search"
+        />
 
-      <div className="mem-controls"><input type="search" placeholder="Search members by name, number or position..." value={search} onChange={handleSearch} className="mem-search" /></div>
+        <select value={filter} onChange={handleFilter} className="mem-filter">
+          <option value="All">All</option>
+          <option value="Exco">Exco</option>
+          <option value="Member">Member</option>
+        </select>
+      </div>
 
-<div className="mem-grid">
+      <div className="mem-grid">
         {displayed.map((m, i) => {
-          const url = `https://wa.me/${formatPhoneForWhatsApp(m.phone)}?text=${encodeURIComponent(`Hello ${m.name}`)}`;
+          const waUrl = `https://wa.me/${formatPhoneForWhatsApp(m.phone)}?text=${encodeURIComponent(
+            `Hello ${m.name}`
+          )}`;
           return (
             <div className="mem-card" key={i}>
-              <div className="mem-media"><img src={m.image} alt={m.name} /></div>
+              <div className="mem-media">
+                <img src={m.image} alt={m.name} />
+              </div>
               <div className="mem-info">
                 <h4>{m.name}</h4>
                 <p>{m.position}</p>
                 <p className="mem-address">{m.address}</p>
-                <a href={url} target="_blank" rel="noreferrer"><FaWhatsapp /> {m.phone}</a>
+                <a href={waUrl} target="_blank" rel="noreferrer">
+                  <FaWhatsapp /> {m.phone}
+                </a>
               </div>
             </div>
           );
@@ -189,14 +225,31 @@ const handleSearch = (e) => {
 
       {total > 1 && (
         <div className="mem-pagination">
-          <button disabled={currentPage===1} onClick={()=>handlePage(currentPage-1)}>Prev</button>
-          {Array.from({length:total},(_,i)=>(<button key={i} className={currentPage===i+1?"active":""} onClick={()=>handlePage(i+1)}>{i+1}</button>))}
-          <button disabled={currentPage===total} onClick={()=>handlePage(currentPage+1)}>Next</button>
+          <button
+            disabled={currentPage === 1}
+            onClick={() => handlePage(currentPage - 1)}
+          >
+            Prev
+          </button>
+          {Array.from({ length: total }, (_, i) => (
+            <button
+              key={i}
+              className={currentPage === i + 1 ? "active" : ""}
+              onClick={() => handlePage(i + 1)}
+            >
+              {i + 1}
+            </button>
+          ))}
+          <button
+            disabled={currentPage === total}
+            onClick={() => handlePage(currentPage + 1)}
+          >
+            Next
+          </button>
         </div>
       )}
-    <Menuicon />
-    </section>
 
+      <Menuicon />
+    </section>
   );
 }
-/* Members.css */

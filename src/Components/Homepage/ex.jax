@@ -1,4 +1,5 @@
- { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
+const membersData = [
+   { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/Ita/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },

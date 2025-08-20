@@ -8,21 +8,21 @@ const tabs = [
     label: "Who We Are",
     content:
       "Ilobu Tilers Association is a collective of skilled professionals committed to delivering exceptional tiling services throughout Ilobu and neighboring regions. With over 70 members, we stand for excellence, unity, and development in the tiling industry.",
-    img: "/Ita/tile.avif"
+    img: "/Ita/ilobu.png"
   },
   {
     id: "mission",
     label: "Our Mission",
     content:
       "To promote quality craftsmanship, ensure fair practices among members, and contribute to the socio-economic development of our community through training and collaboration.",
-    img: "/Ita/mutiu.jpg"
+    img: "/Ita/tile.avif"
   },
   {
     id: "impact",
     label: "Community Impact",
     content:
       "We actively engage in community-driven projects such as school renovations, youth training, and city beautification through artistic and functional tiling.",
-    img: "/Ita/impact.jpg"
+    img: "/Ita/de.avif"
   },
 ];
 
