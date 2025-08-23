@@ -31,7 +31,7 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/sakir2.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. Salawudeen Taiwo Hassan", position: "Member", phone: "07036157039", image: "/Ita/taiwo3.jpg", address: ", Akunsin compound,Ilobu, Osun State" },
   { name: "Mr. Abidoye Oluwafemi Olaitan ", position: "Member", phone: "09024776837", image: "/Ita/femi4.jpg", address: ",Olobu compound, Ilobu, Osun State" },
-  { name: "Mr. AbdulRahman Faruq Adisa ", position: "Member", phone: "09117374985", image: "/Ita/faruq5.jpg", address: ", Agboni compound,Ilobu, Osun State" },
+  { name: "Mr. AbdulRahman Faruq Adisa ", position: "Member", phone: "09117374985", image: "/Ita/f5.jpg", address: ", Agboni compound,Ilobu, Osun State" },
   { name: "Mr. Jimoh Azeez Folaranmi", position: "Member", phone: "070626961729", image: "/Ita/fola6.jpg", address: ", Jagun compound ,Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/oga.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/Ita/taohee7.jpg", address: ", Ilobu, Osun State" },

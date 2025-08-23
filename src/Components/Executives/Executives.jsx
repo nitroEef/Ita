@@ -6,7 +6,7 @@ import Menuicon from "../Homepage/Menuicon";
 
 
 const executivesData = [
-  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/Ita/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/Ita/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/Ita/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
@@ -25,7 +25,7 @@ const executivesData = [
   { name: "Mr. Yinusa Sarafadeen Ayinde", position: "Task Officer", phone: "09034956737", image: "/Ita/sarafa.jpg", address: "Alagba compound, Ilobu, Osun State" },
   { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/Ita/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
   { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/Ita/aro.jpg", address: "Ajibike compound, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "08163666812", image: "/Ita/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "07063666812", image: "/Ita/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
 
 
 ];
