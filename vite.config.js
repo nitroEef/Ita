@@ -5,8 +5,7 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
-  base: '/Ita/',
-  // <-- YOUR REPOSITORY NAME WITH SLASHES
+  base: "/",
   plugins: [react()],
-});
+})
 
