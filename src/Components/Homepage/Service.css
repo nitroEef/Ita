@@ -32,7 +32,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
   /* background: linear-gradient(#3c5b6f, #ad946d, whitesmoke); */
-   background: url('/Ita/blie.avif');
+   background: url('/blie.avif');
 color:var(--ws);
 
 

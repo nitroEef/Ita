@@ -9,7 +9,7 @@ const PatronMatron = () => {
       {/* Patron Section */}
       <div className="article">
         <div className="photo-block">
-                   <img src="/Ita/toheeb.jpg"  className="pati" />
+                   <img src="/toheeb.jpg"  className="pati" />
 
           <h3> Alabi Adebayo</h3>
           <p className="title">Chairman</p>
@@ -34,7 +34,7 @@ const PatronMatron = () => {
       {/* Matron Section */}
       <div className="article reverse">
         <div className="photo-block">
-          <img src="/Ita/small.jpg" alt="Tiler at work" className="patimage" />
+          <img src="/small.jpg" alt="Tiler at work" className="patimage" />
 
           <h3>Mr Yetunde Oladimeji</h3>
           <p className="title">Patron</p>
@@ -51,7 +51,7 @@ const PatronMatron = () => {
 
       <div className="article">
         <div className="photo-block">
-          <img src="/Ita/small.jpg" alt="Tiler at work" className="patimage" />
+          <img src="/small.jpg" alt="Tiler at work" className="patimage" />
 
           <h3>MrS. Kolawole Tijani</h3>
           <p className="title">Matron</p>
