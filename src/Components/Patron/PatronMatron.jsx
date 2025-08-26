@@ -3,11 +3,11 @@ import "./PatronMatron.css";
 
 const PatronMatron = () => {
   return (
-    <div className="newspaper-section">
-      <h2 className="headline">Words from Our Chairman, Patron & Matron  </h2>
+    <div className="newspaper-section" data-aos="fade-right">
+      <h2 className="headline" data-aos="fade-up">Words from Our Chairman, Patron & Matron  </h2>
 
       {/* Patron Section */}
-      <div className="article">
+      <div className="article" data-aos="fade-right">
         <div className="photo-block">
                    <img src="/toheeb.jpg"  className="pati" />
 
@@ -32,7 +32,7 @@ const PatronMatron = () => {
       </div>
 
       {/* Matron Section */}
-      <div className="article reverse">
+      <div className="article reverse" data-aos="fade-right">
         <div className="photo-block">
           <img src="/small.jpg" alt="Tiler at work" className="patimage" />
 
@@ -50,7 +50,7 @@ const PatronMatron = () => {
 
 
       <div className="article">
-        <div className="photo-block">
+        <div className="photo-block" data-aos="fade-right">
           <img src="/small.jpg" alt="Tiler at work" className="patimage" />
 
           <h3>MrS. Kolawole Tijani</h3>
@@ -65,7 +65,7 @@ const PatronMatron = () => {
 
 
 
-      <div className="relationship">
+      <div className="relationship" data-aos="fade-right">
         <p>
           The collaboration between our Patron, Matron, and Chairman has 
           fostered harmony, progress, and credibility

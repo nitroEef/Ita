@@ -42,8 +42,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="faq-container">
-      <h2>Frequently Asked Questions</h2>
+    <div className="faq-container" data-aos="fade-right">
+      <h2 data-aos="fade-up">Frequently Asked Questions</h2>
       {faqs.map((item, index) => (
         <div key={index} className="faq-item">
           <div

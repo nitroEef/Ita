@@ -22,7 +22,7 @@ const tabs = [
     label: "Community Impact",
     content:
       "We actively engage in community-driven projects such as school renovations, youth training, and city beautification through artistic and functional tiling.",
-    img: "/de.avif"
+    img: "/group.jpg"
   },
 ];
 
@@ -31,11 +31,11 @@ function About() {
   const current = tabs.find((tab) => tab.id === activeTab);
 
   return (
-    <div className="about-wrapper">
-      <b>About Us</b>
+    <div className="about-wrapper" data-aos="fade-right" >
+      <b data-aos="fade-up">About Us</b>
 
       {/* Tab Buttons */}
-      <div className="tab-buttons">
+      <div className="tab-buttons" data-aos="fade-right">
         {tabs.map((tab) => (
           <button
             key={tab.id}
@@ -48,7 +48,7 @@ function About() {
       </div>
 
       {/* Displayed Content */}
-      <div className="tab-content">
+      <div className="tab-content" data-aos="fade-right">
         <img src={current.img} alt={current.label} />
         <p>{current.content}</p>
       </div>

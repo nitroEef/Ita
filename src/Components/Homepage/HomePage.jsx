@@ -27,15 +27,15 @@ function Home() {
    <Service />
 
       {/* Video Hero Section */}
-      <section className="hero">
+      <section className="hero" data-aos="fade-in">
         <video autoPlay muted loop className="hero-video">
           <source src="/vid.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
-        <div className="hero-overlay">
-          <h1>Building Better Spaces, One Tile at a Time</h1>
+        <div className="hero-overlay" data-aos="fade-right">
+          <h1 >Building Better Spaces, One Tile at a Time</h1>
           <p>Professional tilers united to serve your needs in style and durability.</p>
-          <Link to="/members"> <button className="cta-btn">Meet Our Members</button> 
+          <Link to="/members"  data-aos="fade-right"> <button className="cta-btn">Meet Our Members</button> 
           </Link>
         </div>
       </section>

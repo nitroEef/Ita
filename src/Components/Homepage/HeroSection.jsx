@@ -9,20 +9,21 @@ const HeroSection = () => {
         
         {/* Left - Text */}
         <div className="popo-content">
-          <h1>Osun State Tilers Association <span>[ILOBU ZONE] </span></h1>
-          <p>UP TILERS : GOOD WORKS TO OUR CLIENTS !!!</p>
+          <h1 data-aos="fade-left">Osun State Tilers Association <span>[ILOBU ZONE] </span></h1>
+          <p data-aos="fade-left">UP TILERS : GOOD WORKS TO OUR CLIENTS !!!</p>
 
           <div className="hero-description">
-            <p>
-              You are welcome to our official website for the Ilobu tilers. You will
-              meet all the bonafide members here and our executives. Know that whoever
-              you don't find here is not part of us.
+            <p data-aos="fade-left">
+ Welcome to the official website of the Ilobu Tilers Association! 
+ Here you’ll find our recognized members and dedicated executives. If someone isn’t listed here, 
+ they are not part of our association. Together, 
+ we are committed to promoting quality tiling and building a stronger Ilobu town and beyond.”
             </p>
           
           </div>
 
           {/* Buttons */}
-          <div className="hero-buttons">
+          <div className="hero-buttons" data-aos="fade-left">
             <a href="#contact" className="icon-btn email">
               <FaEnvelope /> 
             </a>
@@ -41,7 +42,7 @@ const HeroSection = () => {
         </div>
 
         {/* Right - Image */}
-        <div className="popo-image-container">
+        <div className="popo-image-container" data-aos="fade-left">
           <img src="/ilotiler.png" alt="Tiler at work" className="popo-image" />
         </div>
       </div>

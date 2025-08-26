@@ -38,14 +38,14 @@ const executives = [
 
 const ExecutivePreview = () => {
   return (
-    <section className="exco-preview">
-      <h2>
+    <section className="exco-preview" data-aos="fade-right">
+      <h2 data-aos="fade-up">
         <FaUsers style={{ marginRight: "10px" }} />
         Meet Our Executives
       </h2>
-      <div className="exco-gridd">
+      <div className="exco-gridd" data-aos="fade-right">
         {executives.map((exec, index) => (
-          <div className="executive-card" key={index}>
+          <div className="executive-card" key={index} data-aos="fade-right">
             <img src={exec.image} alt={exec.name} />
             <div className="executive-info">
               <h4>{exec.name}</h4>
@@ -55,7 +55,7 @@ const ExecutivePreview = () => {
           </div>
         ))}
       </div>
-    <Link to="./exco">  <button className="view-all">View All Executives</button> </Link>
+    <Link to="./exco">  <button className="view-all" data-aos="fade-right">View All Executives</button> </Link>
     </section>
   );
 };

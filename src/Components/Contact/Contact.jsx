@@ -55,7 +55,7 @@ const ContactPage = () => {
             <h2>
               Contact <span className="highlight">Us</span>
             </h2>
-            <div className="info-section">
+            <div className="info-section" data-aos="fade-right">
               <p>
                 Either you have a complaint or you need to get back to us, <br />
                 kindly message us here. Our team will reply you within 24 hrs.
@@ -77,14 +77,14 @@ const ContactPage = () => {
               </p>
             </div>
 
-            <div className="social-icons">
+            <div className="social-icons" data-aos="fade-right">
               <p>Up tilers : Good work to our clients</p>
             </div>
           </div>
         </div>
 
         {/* Right Form Card */}
-        <div className="contact-form">
+        <div className="contact-form" data-aos="fade-right">
           <h3>Contact Form</h3>
           <form ref={form} onSubmit={sendEmail}>
             <input
@@ -118,7 +118,7 @@ const ContactPage = () => {
               onChange={handleChange}
               required
             ></textarea>
-            <button type="submit">
+            <button type="submit" data-aos="fade-right">
               Send Message <span className="arrow">→</span>
             </button>
           </form>

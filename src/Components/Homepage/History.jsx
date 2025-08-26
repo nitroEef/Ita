@@ -15,8 +15,8 @@ const HistoryWithToggle = () => {
   };
 
   return (
-    <div className="history-container" ref={topRef}>
-      <b>Our History</b>
+    <div className="history-container" ref={topRef} data-aos="fade-down">
+      <b data-aos="fade-up">Our History</b>
 
       <div className={`history-text ${expanded ? "expanded" : "collapsed"}`}>
         <p>
@@ -108,12 +108,12 @@ const HistoryWithToggle = () => {
 
         <p>
           Together with the Osun State Tilers Association,
-           we are building not only better floors and walls —
+           we are building not only better floors and walls tiling services —
             but a stronger, united, and respected profession for generations to come.
         </p>
       </div>
 
-      <button className="toggle-btn" onClick={toggleReadMore}>
+      <button className="toggle-btn" onClick={toggleReadMore} data-aos="fade-up">
         {expanded ? "Read Less ▲" : "Read More ▼"}
       </button>
     </div>

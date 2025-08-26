@@ -3,9 +3,9 @@ import React from "react";
 
 const Service = () => {
   return (
-    <div className="services-section">
-      <h2>Our Services</h2>
-      <div className="services-grid">
+    <div className="services-section" data-aos="fade-right">
+      <h2 data-aos="fade-up">Our Services</h2>
+      <div className="services-grid" data-aos="fade-right">
         <div className="service-card">
           <h3 >Professional Tiling</h3>
           <p>
