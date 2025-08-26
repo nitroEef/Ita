@@ -1,6 +1,6 @@
 .mem-preview{padding:60px 20px;font-family:"Poppins",sans-serif}
 .mem-title{font-size:2rem;font-weight:700;text-align:center;margin-bottom:12px;color:#ff9800}
-.mem-intro p{text-align:center;color:var(--textcolor); max-width:800px;margin:0 auto 30px;font-size:1.3rem;line-height:1.6;}
+.mem-intro p{color:var(--textcolor);text-align:center;color:var(--textcolor); max-width:800px;margin:0 auto 30px;font-size:1.1rem;line-height:1.6;}
 
 .mem-controls{display:flex;
     gap:10px;
@@ -8,32 +8,53 @@
     margin-bottom:20px;
     flex-wrap:wrap}
 
-    /* buttons  */
-.mem-controls select,.mem-controls input{
-    background:rgba(117, 113, 234, 0.05);
-    border:1px solid rgba(255,255,255,.12);
-    padding:15px 14px;
-    border-radius:8px;
-    color:#f75531;
-    font-size:14px;
-    outline:none;
-    transition:all .3s ease}
+ .mem-controls select,.mem-controls input {
+  background: #000; /* solid black */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 14px 28px;
+  border-radius: 8px;
+  color: #f75531; /* same orange accent you used */
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+ .mem-controls select,.mem-controls input:hover {
+  background: #111; /* subtle lighter black on hover */
+  color: whitesmoke;     /* switch to white for contrast */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
+}
+ .mem-controls select,.mem-controls input:active {
+  transform: scale(0.97);
+  background: #202020;
+  color: whitesmoke;
+  box-shadow: 0 2px 8px rgba(75, 80, 239, 0.6);
+}
+
 
 
 .mem-controls select:focus,.mem-controls input:focus{border-color:#ff9800;box-shadow:0 0 8px rgba(255,152,0,.5)}
 .mem-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;max-width:1100px;margin:0 auto}
-.mem-card{background:rgba(255,255,255,.05);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,.3);transition:transform .25s ease,box-shadow .25s ease}
+
+.mem-card{ 
+     background:var(--secondback);
+     border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 4px 20px rgba(0,0,0,.3);
+     transition:transform .25s ease,box-shadow .25s ease}
+
 .mem-card:hover{transform:translateY(-6px);box-shadow:0 8px 30px rgba(255,152,0,.4)}
 .mem-media{width:100%;aspect-ratio:3/4;background:#111;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .mem-media img{width:100%;height:100%;object-fit:cover;transition:transform .4s ease}
 .mem-card:hover .mem-media img{transform:scale(1.07)}
-.mem-info{padding:14px;background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.85));text-align:center;color:#fff}
+.mem-info{padding:14px;background:linear-gradient(180deg,rgba(0,0,0,.6),rgba(0,0,0,.85));text-align:center;color:#de1a1a}
 
 .mem-info h4{
     font-size:1.2rem;
     font-weight:600;
     margin-bottom:4px;
-    color:rgb(11, 0, 128);}
+    color:whitesmoke}
 
 .mem-info p{
     font-size:.95rem;

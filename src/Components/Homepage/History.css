@@ -23,18 +23,16 @@
 }
 
 
-/* Heading */
-.history-container h2 {
+
+ .history-container b {
   font-size: 2.5rem;
   font-weight: 700;
   color:var(--textcolor);
-  background: var(--textcolor);
-text-decoration:double;
+text-decoration:overline;
   text-align: center;
   margin-bottom: 40px;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+ 
+}  
 
 .history-text {
   max-width: 1000px;
@@ -96,7 +94,7 @@ text-decoration:double;
 
 
   }
-  .history-container h2 {
+  .history-container b {
   font-size: 2.5rem;
   font-weight: 700;
 
@@ -120,7 +118,7 @@ text-decoration:double;
   }
 
   }
-  .history-container h2 {
+  .history-container b {
   font-size: 2.3rem;
   font-weight: 700;
 
@@ -160,6 +158,6 @@ text-decoration:double;
     padding: 10px 20px;
 
   }
-  .history-container h2 {
+  .history-container b {
   font-size: 2rem;}
 }

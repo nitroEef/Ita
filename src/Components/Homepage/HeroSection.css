@@ -28,13 +28,14 @@
 }
 
 .popo-content p {
-  font-size: 1rem;
+  font-size: 21px;
 }
 
 .hero-description p {
   margin-top: 15px;
   color: var(--secondary);
   line-height: 1.6;
+  font-size: 17px;
 }
 
 /* Icon Buttons */

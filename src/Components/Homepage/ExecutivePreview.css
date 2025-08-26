@@ -6,7 +6,8 @@
 }
 
 .exco-preview h2 {
-  font-size: clamp(1.6rem, 2.8vw, 2.6rem);
+  font-size: clamp(1.2rem, 2.2vw, 2.2rem);
+  text-decoration:overline;
   font-weight: 800;
   margin-bottom: 2rem;
   display: inline-flex;

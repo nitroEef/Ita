@@ -26,9 +26,9 @@ const HeroSection = () => {
             <a href="#contact" className="icon-btn email">
               <FaEnvelope /> 
             </a>
-             <a href="#contact" className="icon-btn phone">
+             {/* <a href="#contact" className="icon-btn phone">
               <FaPhone /> 
-            </a>
+            </a> */}
             <a
               href="https://wa.me/2348012345678"
               target="_blank"

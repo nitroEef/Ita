@@ -32,7 +32,7 @@ function About() {
 
   return (
     <div className="about-wrapper">
-      <h1>About Us</h1>
+      <b>About Us</b>
 
       {/* Tab Buttons */}
       <div className="tab-buttons">

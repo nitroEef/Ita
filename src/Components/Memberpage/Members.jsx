@@ -6,14 +6,14 @@ import Menuicon from "../Homepage/Menuicon";
 const filterTypes = ["Exco", "Member"];
 
   const membersData = [
-   { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08012345678", image: "/oo.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr. Olan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
   { name: "Mr. Adekunle Nureni Adewale", position: "Pro 1", phone: "08140928987", image: "/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
   { name: "Mr. Muftar Satar Ademola", position: "Assistant Secretary", phone: "09067995103", image: "/demola.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08167037434", image: "/arod.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08167037434", image: "/finsec.jpg", address: "Ajibike compound, Ilobu, Osun State" },
   { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
   { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744763", image: "/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
   { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO 2", phone: "09164337902", image: "/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
@@ -25,7 +25,10 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. Yinusa Sarafadeen Ayinde", position: "Task Officer", phone: "09034956737", image: "/sarafa.jpg", address: "Alagba compound, Ilobu, Osun State" },
   { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
   { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/aro.jpg", address: "Ajibike compound, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "08163666812", image: "/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "07063666812", image: "/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
+
+
+
 
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/munir.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/sakir2.jpg", address: ", Ilobu, Osun State" },
@@ -36,15 +39,17 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/oga.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/taohee7.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/sakeight.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/fadene.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/olareleten.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Fadele Lukman Olasunkanmi ", position: "Member", phone: "09135670616", image: "/fadene.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Olanrele Akinola Aromiwe", position: "Member", phone: "08065052959", image: "/olareleten.jpg", address: "Aromiwe compound, Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/labi11.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/key12.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Kolawole Majeed", position: "Member", phone: "07030056953", image: "/key12.jpg", address: "Beeku compound, Ilobu, Osun State" },
 
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Odeyemi Kayode Raphael", position: "Member", phone: "09028921790", image: "/rafel.jpg", address: ", Akinibi compound, Ilobu, Osun State" },
   { name: "Mr. Ajibade Lateef O. ", position: "Member", phone: "08136340736", image: "/ilobu.png", address: "Ibikunle estate, Okinni, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Abidogun Ganiyy ", position: "Member", phone: "08130260206", image: "/ganiyy.jpg", address: "jagun compound, Ilobu, Osun State" },
+
+
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
