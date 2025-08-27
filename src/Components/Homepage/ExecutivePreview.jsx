@@ -8,9 +8,9 @@ const executives = [
   { 
     name: "Mr Salaudeen Afeez Flenjo", 
     position: "Chairman", 
-    phone: "08012345678", 
-    image: "/ilobu.png", 
-    address: "No. 1 Tilers Street, Ilobu, Osun State" 
+    phone: "08164586149", 
+    image: "/chairman.png", 
+    address: "  Akunsin compound, Ilobu, Osun State" 
   },
   { 
     name: "Mr. Ayo", 

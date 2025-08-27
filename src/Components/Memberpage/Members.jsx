@@ -6,7 +6,7 @@ import Menuicon from "../Homepage/Menuicon";
 const filterTypes = ["Exco", "Member"];
 
   const membersData = [
-  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "Akunsin compoumd, Ilobu, Osun State" },
+  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "Akunsin compound, Ilobu, Osun State" },
   { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08062403759", image: "/ejo.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
