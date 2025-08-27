@@ -1,5 +1,5 @@
 .mem-preview{padding:60px 20px;font-family:"Poppins",sans-serif}
-.mem-title{font-size:2rem;font-weight:700;text-align:center;margin-bottom:12px;color:#ff9800}
+.mem-title{font-size:2rem;font-weight:700;text-align:center;margin-bottom:12px;}
 .mem-intro p{color:var(--textcolor);text-align:center;color:var(--textcolor); max-width:800px;margin:0 auto 30px;font-size:1.1rem;line-height:1.6;}
 
 .mem-controls{display:flex;
@@ -65,9 +65,9 @@
 .mem-info a{display:inline-flex;align-items:center;justify-content:center;background:#25d366;color:#fff;padding:8px 14px;border-radius:6px;font-size:.9rem;font-weight:500;text-decoration:none;transition:background .3s ease}
 .mem-info a:hover{background:#20b558}
 .mem-pagination{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin-top:20px}
-.mem-pagination button{background:rgba(255,255,255,.08);border:none;color:#fff;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:.9rem;transition:all .3s ease}
-.mem-pagination button.active{background:#ff9800;color:#000;font-weight:600}
-.mem-pagination button:hover:not(:disabled){background:rgba(255,152,0,.8)}
+.mem-pagination button{background:rgba(20, 19, 19, 0.868);border:none;color:#fff;padding:8px 12px;border-radius:6px;cursor:pointer;font-size:.9rem;transition:all .3s ease}
+.mem-pagination button.active{background:#373ae9;color:#000;font-weight:600}
+.mem-pagination button:hover:not(:disabled){background:rgba(85, 244, 22, 0.8)}
 .mem-pagination button:disabled{cursor:not-allowed;opacity:.4}
 
 

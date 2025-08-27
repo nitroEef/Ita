@@ -6,25 +6,25 @@ import Menuicon from "../Homepage/Menuicon";
 
 
 const executivesData = [
-  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "No. 1 Tilers Street, Ilobu, Osun State" },
-  { name: "Mr. Olan Muhideen", position: "Vice Chairman", phone: "08023456789", image: "/ejo.jpg", address: "No. 2 Tilers Street, Ilobu, Osun State" },
+  { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "Akunsin compoumd, Ilobu, Osun State" },
+  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08062403759", image: "/ejo.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
   { name: "Mr. Adekunle Nureni Adewale", position: "Pro 1", phone: "08140928987", image: "/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/san.jpg", address: "Ajankanawon's compound, Ilobu, Osun State" },
+  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/san.jpg", address: "Ajankanamon's compound, Ilobu, Osun State" },
   { name: "Mr. Muftar Satar Ademola", position: "Assistant Secretary", phone: "09067995103", image: "/demola.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08167037434", image: "/finsec.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08165013970", image: "/finsec.jpg", address: "Aganna compound, Ilobu, Osun State" },
   { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
   { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744763", image: "/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
   { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO 2", phone: "09164337902", image: "/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
-  { name: "Mr. Rasheed Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/laja.jpg", address: "jagun area, Ilobu, Osun State" },
+  { name: "Mr. Rasheed Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/laja.jpg", address: "Alape compound, Ilobu, Osun State" },
   { name: "Mr. Ibraheem Najeem", position: "Assistant Sport Director", phone: "08167037434", image: "/yemi.jpg", address: "Ajibike compound, Ilobu, Osun State" },
-  { name: "Mr. Jimoh Saheed", position: "Chief Task Officer", phone: "07066007989", image: "/irun.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Adedeji Saheed", position: "Assistant Chief Task Officer", phone: "08102784645", image: "/saheed.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
-  { name: "Mr. Raheem Sarafa OLalekan", position: "Task Officer", phone: "08163827108", image: "/yemi.jpg", address: "Jagun compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Saheed", position: "Chief Task Officer", phone: "07066007989", image: "/ikuun.jpg", address: "Ibigbami compound, Ilobu, Osun State" },
+  { name: "Mr. Adedeji Saheed", position: "Assistant Chief Task Officer", phone: "08102784645", image: "/irun.jpg", address: "Gbegede's compound, Ilobu, Osun State" },
+  { name: "Mr. Raheem Sarafa OLalekan", position: "Task Officer", phone: "08163827108", image: "/lek.jpg", address: "Jagun compound, Ilobu, Osun State" },
   { name: "Mr. Yinusa Sarafadeen Ayinde", position: "Task Officer", phone: "09034956737", image: "/sarafa.jpg", address: "Alagba compound, Ilobu, Osun State" },
   { name: "Mr. Olaniran Lukman", position: "Store Keeper", phone: "09036646889", image: "/lukuk.jpg", address: "Ologele compound Ilobu Osun state" },
-  { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/aro.jpg", address: "Ajibike compound, Ilobu, Osun State" },
+  { name: "Mr. Aremu Taiwo", position: "Fine collector", phone: "08107468935", image: "/aro.jpg", address: "Alaro compound, Aro, Osun State" },
   { name: "Mr. Jimoh Ridwan Olalekan", position: "Officer", phone: "07063666812", image: "/olopa.jpg", address: "Oluawo compound, Ilobu, Osun State" },
 
 
@@ -103,7 +103,7 @@ useEffect(() => {
 
       <div className="exe-controls" style={{ maxWidth: 980, margin: "0 auto 24px", display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
         <div className="exe-filter-container">
-          <label htmlFor="filter" style={{ marginRight: 8, fontWeight: 600 }}>Filter by Position:</label>
+          <label htmlFor="filter" style={{ marginRight: 8, fontWeight: 600,}}>Filter by Position:</label>
           <select id="filter" value={filter} onChange={handleFilterChange}>
             {positions.map((pos, idx) => (
               <option key={idx} value={pos}>{pos}</option>

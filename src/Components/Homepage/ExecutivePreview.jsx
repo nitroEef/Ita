@@ -27,11 +27,11 @@ const executives = [
     address: "Oganla compound, Ilobu, Osun State" 
   },
     { 
-    name: "Mr. Mustapha Ismahil Adewale", 
-    position: "Secretary", 
-    phone: " 07038937441", 
-    image: "/irun.jpg", 
-    address: "Oganla compound, Ilobu, Osun State" 
+    name: "Mr. Jimoh Saheed", 
+    position: "Chief Task Force", 
+    phone: " 07066007989", 
+    image: "/ikuun.jpg", 
+    address: "Ibigbami compound, Ilobu, Osun State" 
   }
  
 ];
