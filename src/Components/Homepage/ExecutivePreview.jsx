@@ -13,11 +13,11 @@ const executives = [
     address: "  Akunsin compound, Ilobu, Osun State" 
   },
   { 
-    name: "Mr. Ayo", 
+    name: "Mr.  Olaitan Muhideen", 
     position: "Vice Chairman", 
-    phone: "08023456789", 
-    image: "/luk.jpg", 
-    address: "No. 2 Tilers Street, Ilobu, Osun State" 
+    phone: "08062403759", 
+    image: "/ejo.jpg", 
+    address: "Alayan, Ilobu, Osun State" 
   },
   { 
     name: "Mr. Mustapha Ismahil Adewale", 
