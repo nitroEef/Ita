@@ -48,7 +48,7 @@ const ContactPage = () => {
 
   return (
     <>
-      <div data-aos="fade-up" className="contact-wrapper">
+      <div data-aos="fade-up" className="contact-wrapper" id="contact">
         {/* Left Info Panel */}
         <div className="contact-info">
           <div className="justci">
@@ -57,7 +57,7 @@ const ContactPage = () => {
             </h2>
             <div className="info-section" data-aos="fade-right">
               <p>
-                Either you have a complaint or you need to get back to us, <br />
+                If you have a complain or you need to message us,<br />
                 kindly message us here. Our team will reply you within 24 hrs.
               </p>
 
@@ -71,9 +71,9 @@ const ContactPage = () => {
               <p>
                 <strong>Contact</strong>
                 <br />
-                hello@gmail.com
+                ilobutilers@gmail.com
                 <br />
-                +918273634532
+              07066007989 ,08164586149 ,08136340736
               </p>
             </div>
 

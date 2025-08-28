@@ -111,7 +111,16 @@
 .exe-info p {
   font-size: 0.95rem;
   margin-bottom: 10px;
+  color:white;
 }
+
+.exe-info b {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+  color:rgb(115, 255, 0);
+}
+
 
 /* ===== WhatsApp Link ===== */
 .exe-whatsapp {

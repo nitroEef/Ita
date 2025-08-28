@@ -1,55 +1,7 @@
-
 git add .
-git commit -m "update site"
+git commit -m "your message"
+git pull origin main --rebase
 git push origin main
-npm run deploy
-
-PS C:\Users\HP\Desktop\tilers-association> git fetch origin
-remote: Enumerating objects: 201, done.
-remote: Counting objects: 100% (201/201), done.
-remote: Compressing objects: 100% (174/174), done.
-remote: Total 201 (delta 71), reused 142 (delta 25), pack-reused 0 (from 0)
-Receiving objects: 100% (201/201), 16.89 MiB | 436.00 KiB/s, done.
-Resolving deltas: 100% (71/71), done.
-From https://github.com/nitroEef/Ita
- * [new branch]      gh-pages   -> origin/gh-pages
-PS C:\Users\HP\Desktop\tilers-association> git checkout gh-pages
->> git pull origin gh-pages
-error: Your local changes to the following files would be overwritten by checkout:
-        src/Components/Homepage/ExecutivePreview.jsx
-        src/Components/Memberpage/Members.jsx
-Please commit your changes or stash them before you switch branches.
-Aborting
-From https://github.com/nitroEef/Ita
- * branch            gh-pages   -> FETCH_HEAD
-fatal: refusing to merge unrelated histories
-PS C:\Users\HP\Desktop\tilers-association> git add .
-PS C:\Users\HP\Desktop\tilers-association> git commit -m "update"
-[main 590391c] update
- 2 files changed, 4 insertions(+), 4 deletions(-)
-PS C:\Users\HP\Desktop\tilers-association> git checkout gh-pages
->> git pull origin gh-pages
-branch 'gh-pages' set up to track 'origin/gh-pages'.
-Switched to a new branch 'gh-pages'
-From https://github.com/nitroEef/Ita
- * branch            gh-pages   -> FETCH_HEAD
-Already up to date.
-PS C:\Users\HP\Desktop\tilers-association> git checkout main
-Updating files: 100% (171/171), done.
-Switched to branch 'main'
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
-PS C:\Users\HP\Desktop\tilers-association> git push
-Enumerating objects: 15, done.
-Counting objects: 100% (15/15), done.
-Delta compression using up to 4 threads
-Compressing objects: 100% (8/8), done.
-Writing objects: 100% (8/8), 680 bytes | 170.00 KiB/s, done.
-Total 8 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
-remote: Resolving deltas: 100% (7/7), completed with 7 local objects.
-To https://github.com/nitroEef/Ita.git
-   78819c7..590391c  main -> main
-PS C:\Users\HP\Desktop\tilers-association> 
 
 
   const membersData = [

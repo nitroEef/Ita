@@ -136,7 +136,7 @@ useEffect(() => {
                 </div>
                 <div className="exe-info">
                   <h4>{exec.name}</h4>
-                  <p>{exec.position}</p>
+                  <b>{exec.position}</b>
                   <p className="exe-address" style={{ fontSize: "0.9rem", opacity: 0.8 }}>{exec.address}</p>
                   <a href={waUrl} target="_blank" rel="noopener noreferrer" className="exe-whatsapp" aria-label={`WhatsApp ${exec.name}`}>
                     <FaWhatsapp /> <span style={{ marginLeft: 6 }}>{exec.phone}</span>

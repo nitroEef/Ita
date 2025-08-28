@@ -9,7 +9,7 @@ const PatronMatron = () => {
       {/* Patron Section */}
       <div className="article" data-aos="fade-right">
         <div className="photo-block">
-                   <img src="/toheeb.jpg"  className="pati" />
+                   <img src="/chairman.jpg"  className="pati" />
 
           <h3> Alabi Adebayo</h3>
           <p className="title">Chairman</p>
