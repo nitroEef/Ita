@@ -32,13 +32,13 @@ const filterTypes = ["Exco", "Member"];
   
   { name: "Mr. Hassan Abideen", position: "Founding Member/ Ex chairman", phone: "07035058552", image: "/oga6.jpg", address: ",Dagbolu area, Ilobu, Osun State" },
   { name: "Mr. Qoseem Husain Aremu", position: "Founding Member", phone: "08029931124", image: "/alfaa.jpg", address: "Konda area, Ilobu, Osun State" },
-  { name: "Mr. Ibraheem Ridwan Alabi", position: "Member / Ex treasurer", phone: "08066632732", image: "/ogalabi.jpg", address: "Akeyan compound, Ilobu, Osun State" },
-  { name: "Mr. Olanrele Akinola Aromiwe", position: "Member", phone: "08065052959", image: "/olareleten.jpg", address: "Aromiwe compound, Ilobu, Osun State" },
+  { name: "Mr. Ibraheem Ridwan Alabi", position: " Founding Member / Ex treasurer", phone: "08066632732", image: "/ogalabi.jpg", address: "Akeyan compound, Ilobu, Osun State" },
   { name: "Mr. Olagunju Azeem ", position: " Founding Member", phone: "07030056953", image: "/ilobu.jpg", address: "Oloola compound, Ilobu, Osun State" },
   { name: "Mr. Badmus Hammed", position: "Founding Member", phone: "07031520039", image: "/ogam.jpg", address: "Olobu compound, Ilobu, Osun State" },
   { name: "Mr. Olatoye Tesleem Ayomon", position: "Founding Member / Ex Secretary", phone: "07067231161", image: "/prince.jpg", address: "Ajankanamon compound, Ilobu, Osun State" },
   
   
+  { name: "Mr. Olanrele Akinola Aromiwe", position: "Member", phone: "08065052959", image: "/olareleten.jpg", address: "Aromiwe compound, Ilobu, Osun State" },
   { name: "Mr. Jimoh Azeez Folaranmi", position: "Member", phone: "070626961729", image: "/fola6.jpg", address: ", Jagun compound ,Ilobu, Osun State" },
   { name: "Mr. Munirudeen Nasirudeen Kolawole", position: "Member", phone: "08134038386", image: "/munir.jpg", address: "Bara compound, Ilobu, Osun State" },
   { name: "Mr. Salawudeen Taiwo Hassan", position: "Member", phone: "07036157039", image: "/taiwo3.jpg", address: ", Akunsin compound,Ilobu, Osun State" },
