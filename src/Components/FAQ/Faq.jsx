@@ -25,7 +25,7 @@ const faqs = [
   {
     question: "What services do you offer?",
     answer:
-      "We provide professional wall and floor tiling for residential, commercial, and industrial projects. We also offer training and mentorship to upcoming tilers."
+      "We focused on interior and exterior decoration, providing professional wall and floor tiling for residential, commercial, and industrial projects. We also offer training and mentorship to upcoming tilers."
   },
   {
     question: "Do you guarantee your work?",

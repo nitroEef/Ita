@@ -7,14 +7,14 @@ const filterTypes = ["Exco", "Member"];
 
   const membersData = [
   { name: "Mr Salaudeen Afeez Flenjo", position: "Chairman", phone: "08164586149", image: "/chairman.jpg", address: "Akunsin compound, Ilobu, Osun State" },
-  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08062403759", image: "/ejo.jpg", address: "Alayan compound, Ilobu, Osun State" },
+  { name: "Mr. Olaitan Muhideen", position: "Vice Chairman", phone: "08062403759", image: "/fais.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Mustapha Ismahil Adewale", position: "Secretary", phone: "07038937441", image: "/small.jpg", address: "Oganla compound, Ilobu, Osun State" },
   { name: "Mr. Osunwale Lukman Olamilekan", position: "Treasurer", phone: "07030056953", image: "/luk.jpg", address: "Gbobamu compound, Ilobu, Osun State" },
   { name: "Mr. Adekunle Nureni Adewale", position: "Pro 1", phone: "08140928987", image: "/nurain.jpg", address: "Alayan compound, Ilobu, Osun State" },
-  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor", phone: "07037877975", image: "/san.jpg", address: "Ajankanamon's compound, Ilobu, Osun State" },
+  { name: "Mr. Oseni Munirudeen Adesanjo", position: "Auditor, Founding member", phone: "07037877975", image: "/san.jpg", address: "Ajankanamon's compound, Ilobu, Osun State" },
   { name: "Mr. Muftar Satar Ademola", position: "Assistant Secretary", phone: "09067995103", image: "/demola.jpg", address: "Alayan compound, Ilobu, Osun State" },
   { name: "Mr. Olaonipekun Mutiu", position: "Financial Secretary ", phone: "08165013970", image: "/finsec.jpg", address: "Aganna compound, Ilobu, Osun State" },
-  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare", phone: "08161353962", image: "/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
+  { name: "Mr. Aasa Ifagbemileke ", position: "Welfare, Founding member", phone: "08161353962", image: "/ifa.jpg", address: "Agbedemo compound, Ilobu, Osun State" },
   { name: "Mr. Jimoh Mutiu Adepoju", position: "Assistant Welfare", phone: "08169744763", image: "/mutiu.jpg", address: "Ogunkeye compound, Ilobu, Osun State" },
   { name: "Mr. Akanmu Toheeb Olamilekan ", position: "PRO 2", phone: "09164337902", image: "/toheeb.jpg", address: "Ajegunle area, Ilobu, Osun State" },
   { name: "Mr. Rasheed Taoheed Adelaja", position: "Sport Director", phone: "08062203316", image: "/laja.jpg", address: "Alape compound, Ilobu, Osun State" },
@@ -34,8 +34,8 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. Qoseem Husain Aremu", position: "Founding Member", phone: "08029931124", image: "/alfaa.jpg", address: "Konda area, Ilobu, Osun State" },
   { name: "Mr. Ibraheem Ridwan Alabi", position: "Member / Ex treasurer", phone: "08066632732", image: "/ogalabi.jpg", address: "Akeyan compound, Ilobu, Osun State" },
   { name: "Mr. Olanrele Akinola Aromiwe", position: "Member", phone: "08065052959", image: "/olareleten.jpg", address: "Aromiwe compound, Ilobu, Osun State" },
-  { name: "Mr. Olagunju Azeem ", position: " Founding Member", phone: "07030056953", image: "/ilobu.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. Badmus Hammed", position: "Founding Member", phone: "07031520039", image: "/ilobu.jpg", address: "Olobu compound, Ilobu, Osun State" },
+  { name: "Mr. Olagunju Azeem ", position: " Founding Member", phone: "07030056953", image: "/ilobu.jpg", address: "Oloola compound, Ilobu, Osun State" },
+  { name: "Mr. Badmus Hammed", position: "Founding Member", phone: "07031520039", image: "/ogam.jpg", address: "Olobu compound, Ilobu, Osun State" },
   { name: "Mr. Olatoye Tesleem Ayomon", position: "Founding Member / Ex Secretary", phone: "07067231161", image: "/prince.jpg", address: "Ajankanamon compound, Ilobu, Osun State" },
   
   
@@ -55,7 +55,7 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr.Adebayo Hammed Olaide ", position: "Member", phone: "08162345487", image: "/adebayohammed.jpg", address: "Olode compound, Ilobu, Osun State" },
   
 
-  { name: "Mr. Owoade Alabi ", position: "Member", phone: "08035620350", image: "/ilobu.jpg", address: ", Ilobu, Osun State" },
+  { name: "Mr. Owoade Alabi Otunba ", position: "Member", phone: "08035620350", image: "/otunba.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. Shittu Nurain", position: "Member", phone: "07030056953", image: "/ilobu.jpg", address: ", Ilobu, Osun State" },
   
   
@@ -71,15 +71,10 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. Ashir Toheeb Adewale", position: "Member", phone: "07063742141", image: "/omoselek.jpg", address: "Seji compound, Ilobu, Osun State" },
   { name: "Mr. Sheu Jeleel Adisa ", position: "Member", phone: "09165161045", image: "/eeta.jpg", address: "Oweyo compound, Ilobu, Osun State" },
   { name: "Mr. Abdul Rauf Sheriff", position: "Member", phone: "08161298002", image: "/sher.jpg", address: "Ire Akari Area, Ilobu, Osun State" },
+  { name: "Mr. Adeoye Qowiyy Ayofe ", position: "Member", phone: "08108713011", image: "/qowi.jpg", address: "Ire Akari, Ilobu, Osun State" },
+  { name: "Mr. Ganiyu Wakeel Ademola", position: "Member", phone: "07033293257", image: "/eko.jpg", address: "Alapata compound, Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
-
+  
 
 
 ];

@@ -16,7 +16,7 @@ const executives = [
     name: "Mr.  Olaitan Muhideen", 
     position: "Vice Chairman", 
     phone: "08062403759", 
-    image: "/ejo.jpg", 
+    image: "/fais.jpg", 
     address: "Alayan, Ilobu, Osun State" 
   },
   { 
