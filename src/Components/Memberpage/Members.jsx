@@ -61,6 +61,7 @@ const filterTypes = ["Exco", "Member"];
   
   
   { name: "Mr. Akinloye AbdulAzeez Adebayo ", position: "Member", phone: "08143209104", image: "/olago.jpg", address: "Alagbon compound, Ilobu, Osun State" },
+  { name: "Mr. Ganiyu Wakeel Ademola", position: "Member", phone: "07033293257", image: "/eko.jpg", address: "Alapata compound, Ilobu, Osun State" },
   { name: "Mr. Mutair Saheed Akofe", position: "Member", phone: "07036427171", image: "/muta.jpg", address: "Seji compound, Ilobu, Osun State" },
   { name: "Mr. Kolawole Majeed", position: "Member", phone: "07069959469", image: "/key12.jpg", address: "Beeku compound, Ilobu, Osun State" },
   { name: "Mr. Taiwo Ismahil ", position: "Member", phone: "O8148185860", image: "/tismahil.jpg", address: "Olaide compound,Ilobu, Osun State" },
@@ -72,7 +73,8 @@ const filterTypes = ["Exco", "Member"];
   { name: "Mr. Sheu Jeleel Adisa ", position: "Member", phone: "09165161045", image: "/eeta.jpg", address: "Oweyo compound, Ilobu, Osun State" },
   { name: "Mr. Abdul Rauf Sheriff", position: "Member", phone: "08161298002", image: "/sher.jpg", address: "Ire Akari Area, Ilobu, Osun State" },
   { name: "Mr. Adeoye Qowiyy Ayofe ", position: "Member", phone: "08108713011", image: "/qowi.jpg", address: "Ire Akari, Ilobu, Osun State" },
-  { name: "Mr. Ganiyu Wakeel Ademola", position: "Member", phone: "07033293257", image: "/eko.jpg", address: "Alapata compound, Ilobu, Osun State" },
+  { name: "Mr. Jimoh Kabir Olaotan ", position: "Member", phone: "08086582095", image: "/olao.jpg", address: "Akeyan compound, Ilobu, Osun State" },
+  { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
   { name: "Mr. ", position: "Member", phone: "07030056953", image: "/luk.jpg", address: ", Ilobu, Osun State" },
   
 

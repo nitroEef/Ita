@@ -12,8 +12,9 @@ import HeroSection from "./HeroSection";
 import Contact from "../Contact/Contact";
 import History from "./History";
 import PatronMatron from "../Patron/PatronMatron";
-import Faq from "../FAQ/Faq"
+import Faq from "../FAQ/Faq";
 
+import  AdsSlider from "./AdsSlider";
 function Home() {
   return (
  <div className="home-container">
@@ -48,6 +49,8 @@ function Home() {
     <PatronMatron />
   
 {/* <TilerGallery /> */}
+
+<AdsSlider /> 
       <Contact />
 
    
