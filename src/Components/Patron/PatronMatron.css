@@ -247,19 +247,4 @@
 @media (prefers-reduced-motion: reduce){
   .article, .photo-block img{ transition: none !important; }
 }
-
-/* Optional dark-page compatibility (if your site uses dark bg) */
-@media (prefers-color-scheme: dark){
-  .newspaper-section{
-    background:
-      linear-gradient(180deg, rgba(18,22,30,.9), rgba(18,22,30,.9)),
-      radial-gradient(1200px 300px at 50% -20%, rgba(247,92,49,.08), transparent 60%),
-      linear-gradient(135deg, #151a22, #10141b 45%, #121620 100%);
-    color:#e9edf5;
-    border-color: rgba(255,255,255,.06);
-  }
-  .article{ background: #121722; border-color: rgba(255,255,255,.05); }
-  .article-text{ color:#c3cada; }
-  .relationship{ background: linear-gradient(135deg, rgba(247,92,49,.12), rgba(230,177,92,.1)), #121722; }
-  .photo-block img{ border-color:#121722; outline-color: rgba(255,255,255,.06); }
-}
+/* 
