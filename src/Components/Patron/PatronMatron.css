@@ -1,12 +1,13 @@
+
 /* ============ Vars & Base ============ */
 :root{
   --bg:#0f1218;            /* page bg (in case your site is dark) */
   --paper:#ffffff;         /* article background */
   --ink:#1b1f27;           /* primary text */
-  --muted:#586174;         /* secondary text */
-  --accent:#f75c31;        /* brand orange */
+  --muted:#587459;         /* secondary text */
+  --accent:#1059f8;        /* brand orange */
   --accent-2:#e6b15c;      /* subtle gold */
-  --ring:rgba(247,92,49,.18);
+  --ring:rgba(12, 48, 226, 0.18);
   --shadow:0 18px 50px rgba(19, 19, 19, 0.12);
 }
 
@@ -60,7 +61,7 @@
   border-radius:999px;
   background:
     linear-gradient(90deg, var(--accent), var(--accent-2));
-  box-shadow: 0 6px 18px rgba(35, 33, 33, 0.28);
+  box-shadow: 0 6px 18px rgba(115, 74, 74, 0.28);
 }
 
 /* Article card: two-column with layered paper effect */

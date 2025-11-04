@@ -11,8 +11,10 @@ const PatronMatron = () => {
         <div className="photo-block">
                    <img src="/chairman.jpg"  className="pati" />
 
-          <h3> Alabi Adebayo</h3>
+          <h3> Mr Salaudeen Afeez</h3>
           <p className="title">Chairman</p>
+          <p>08164586149</p>
+
         </div>
         <div className="article-text">
           <p>  “Leading the Ilobu Tilers Association has been one of the 
@@ -34,16 +36,27 @@ const PatronMatron = () => {
       {/* Matron Section */}
       <div className="article reverse" data-aos="fade-right">
         <div className="photo-block">
-          <img src="/small.jpg" alt="Tiler at work" className="patimage" />
+          <img src="/BABA.jpg" alt="Tiler at work" className="patimage" />
 
-          <h3>Mr Yetunde Oladimeji</h3>
+          <h3>Barrister Ogunjide Adeniyi</h3>
           <p className="title">Patron</p>
+          <p>08036256403</p>
+
+
         </div>
         <div className="article-text">
           <p>
-            “Being a Matron isn’t just a title; it’s a duty to nurture, empower, 
-            and guide. The tilers have demonstrated unity, professionalism, and heart...
+            “Being a Patron isn’t just a title; it’s a duty to nurture, empower, and guide.
+The tilers have demonstrated unity, professionalism, and heart—values that set the foundation 
+for progress and excellence. As a Patron, it is both an honor
+ and a responsibility to support this vibrant community, ensuring 
+ that every member feels valued, heard, and equipped to grow.
+Together, we can elevate standards, promote innovation in craftsmanship,
+ and build a network that thrives on collaboration and mutual respect. Let this journey 
+ be one of mentorship, shared vision, and collective success—because when tilers rise, the entire industry shines brighter.
           </p>
+        
+
         </div>
       </div>
 
@@ -55,10 +68,14 @@ const PatronMatron = () => {
 
           <h3>MrS. Kolawole Tijani</h3>
           <p className="title">Matron</p>
+          <p>08036256403</p>
         </div>
         <div className="article-text">
           <p>
-          Ilobu tiler association has been a very good sitting to me since the
+         As Matron, my heart rests in service, compassion, and encouragement.
+The tilers embody strength, creativity, and unity, and it’s an honor to support
+ them with care and understanding. Together, we’ll continue to build not just
+  structures, but lasting bonds and a legacy of excellence.
           </p>
         </div>
       </div>
