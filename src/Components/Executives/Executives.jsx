@@ -104,7 +104,7 @@ useEffect(() => {
       <div className="exe-controls" style={{ maxWidth: 980, margin: "0 auto 24px", display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap" }}>
         <div className="exe-filter-container">
           <label htmlFor="filter" style={{ marginRight: 8, fontWeight: 600,}}>Filter by Position:</label>
-          <select id="filter" value={filter} onChange={handleFilterChange}>
+          <select id="filter" className="fli" value={filter} onChange={handleFilterChange}>
             {positions.map((pos, idx) => (
               <option key={idx} value={pos}>{pos}</option>
             ))}

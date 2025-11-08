@@ -64,11 +64,11 @@ Together, we can elevate standards, promote innovation in craftsmanship,
 
       <div className="article">
         <div className="photo-block" data-aos="fade-right">
-          <img src="/small.jpg" alt="Tiler at work" className="patimage" />
+          <img src="/iyaa.jpg" alt="Tiler at work" className="patimage" />
 
-          <h3>MrS. Kolawole Tijani</h3>
+          <h3>Chief Mrs Kudirat Ishola Sijuwade </h3>
           <p className="title">Matron</p>
-          <p>08036256403</p>
+          <p>09069331339</p>
         </div>
         <div className="article-text">
           <p>

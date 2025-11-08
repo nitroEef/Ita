@@ -40,7 +40,13 @@
   outline: none;
   transition: all 0.3s ease;
 }
-
+.fli{
+  color:rgb(34, 33, 33);
+  background:red;
+}
+.exe-filter-container{
+  color:black;
+}
 .exe-controls select:focus,
 .exe-search:focus {
   border-color: #101aa4;
